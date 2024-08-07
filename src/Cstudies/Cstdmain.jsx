@@ -3,6 +3,31 @@ import laptop from "../assets/Compressed/Laptop.png";
 import { MdChevronLeft, MdChevronRight } from "react-icons/md";
 import { Link } from "react-router-dom";
 
+// petroleum
+import reli from "../assets/Petroleum/reli.jpeg"
+import petrosim from "../assets/Petroleum/petrosim.jpeg"
+import espct from "../assets/Petroleum/ESPCT.jpg"
+import cgd from "../assets/Petroleum/cgd.jpg"
+import simul from "../assets/Petroleum/simul.jpg"
+import dmg from "../assets/Petroleum/dmg.jpg"
+import scada from "../assets/Petroleum/scada.jpg"
+import femms from "../assets/Petroleum/FEMMS.jpeg"
+import bsa from "../assets/Petroleum/bsa.jpeg"
+import ogpd from "../assets/Petroleum/ogpd.png"
+
+
+// automobile
+import evbm from "../assets/Automobile/evbm.jpg"
+import adai from "../assets/Automobile/adai.jpeg"
+import ccp from "../assets/Automobile/ccp.jpg"
+import mpo from "../assets/Automobile/mpo.jpg"
+
+// medical
+import aipdt from "../assets/medical/aipdt.jpeg"
+import tmp from "../assets/medical/tmp.jpeg"
+
+
+
 const industries = [
   { name: "OIL AND GAS INDUSTRY", id: "gis" },
   // { name: "OIL AND GAS INDUSTRY", id: "oil" },
@@ -16,57 +41,68 @@ const projects = {
       title: "RE.LI Monitor",
       description: "Developed a Real Time Sensor monitoring tool using SCADA.",
       link: "/Casestudy-ReliMonitor",
+      img :reli
+      
     },
     {
       title: "PetroSIM",
       description:
         "Comprehensive quality assurance and simulation tool for refinery operations.",
       link: "/Casestudy-PetroSIM",
+      img : petrosim
     },
     {
       title: "ESPCT Quote",
       description: "Web Based Sales and Quotation Tool",
       link: "/Casestudy-EspctQuote",
+      img : espct
     },
     {
       title: "City Gas Distribution",
       description: "Gas Distribution Analysis App for Adani Gas",
       link: "/Casestudy-CityGasAdani",
+      img : cgd
     },
     {
       title: "SimuLIFT",
       description:
         "Development of Quote & Sizing Tools for Artificial Lift Methods",
       link: "/Casestudy-SimuLIFT",
+      img : simul
     },
     {
       title: "E&P Data Management on GIS",
       description:
         "An Integrated Exploration & Production Data Management System",
       link: "/Casestudy-EPGIS",
+      img : dmg
     },
     {
       title: "Engineering Integration with SCADA",
       description: "Development of PLC Information Management System",
       link: "/Casestudy-NoraltaSCADA",
+      img : scada
     },
     {
       title: "FEMMS",
       description:
         "Development of Fugitive Emission Monitoring, Estimation & Management System (FEMMS)",
       link: "/Casestudy-NoraltaFEMMS",
+      img : femms
     },
     {
       title: "Business Analytics Automation",
       description:
         "Development of Tool for Monitoring of Petroleum Financial Models",
       link: "/Casestudy-SchlumbergerBAA",
+      img : bsa
     },
     {
       title: "Oil & Gas Product Development",
       description:
         "Development of Design & Simulation Tool for Production Monitoring in Oil and Gas Industry for BORETS",
       link: "/Casestudy-DesignSimBORETS",
+      img : ogpd
     },
   ],
   // oil: [
@@ -83,21 +119,25 @@ const projects = {
       title: "Electric Vehicle Battery Management",
       description:
         "Developed an advanced BMS increasing EV range by 12% and battery lifespan by 2 years.",
+        img : evbm
     },
     {
       title: "Autonomous Driving AI",
       description:
         "Created a machine learning model improving object detection accuracy by 30% in diverse weather conditions.",
+        img : adai
     },
     {
       title: "Connected Car Platform",
       description:
         "Designed a cloud-based system enabling OTA updates and predictive maintenance for 100,000+ vehicles.",
+        img : ccp
     },
     {
       title: "Manufacturing Process Optimization",
       description:
         "Implemented an AI-driven system reducing production line downtime by 40% and improving quality control.",
+        img : mpo
     },
   ],
   health: [
@@ -105,11 +145,13 @@ const projects = {
       title: "AI-Powered Diagnostic Tool",
       description:
         "Developed an AI algorithm for early cancer detection, improving accuracy by 15% over traditional methods.",
+        img : aipdt
     },
     {
       title: "Telemedicine Platform",
       description:
         "Created a secure, HIPAA-compliant telehealth solution, facilitating over 1 million virtual consultations.",
+        img : tmp
     },
   ],
 };
@@ -184,7 +226,7 @@ function Cstdmain() {
                   key={index}
                   title={project.title}
                   description={project.description}
-                  image={laptop}
+                  image={project.img}
                   link={project.link}
                 />
               ))}

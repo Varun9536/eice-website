@@ -7,6 +7,12 @@ html, body {
     overflow-x: hidden;
 }
 
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
 .hide-scrollbar {
   -ms-overflow-style: none;  /* Internet Explorer 10+ */
   scrollbar-width: none;  /* Firefox */
@@ -67,11 +73,7 @@ html, body {
     scrollbar-width: none;  /* Firefox */
   }
 
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-}
+
   
 .offer-item {
     perspective: 1000px;
