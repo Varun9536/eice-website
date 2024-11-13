@@ -188,18 +188,19 @@ export default function Payroll() {
                         (
                             <div className={styles.featuresAndImg}>
 
-                                <div >
+                                <div style={{display : "flex" , justifyContent : "space-between"}} >
 
                                     <div className={styles.featuresHeading}>{item.heading}</div>
-                                    <div className={styles.featuresDescription}>{item.description}</div>
+
+                                    <div style={{display : "flex" , justifyContent : "flex-end"}} >
+                                        <img style={{maxWidth : "50%"}} src={item.img} alt="" />
+                                    </div>
 
                                 </div>
 
-                                <div style={{display : "flex" , justifyContent : "center" , alignItems : "center"}}>
-                                    <img src={item.img} alt="" />
-                                </div>
 
 
+                                <div className={styles.featuresDescription}>{item.description}</div>
 
                             </div>
 
@@ -218,11 +219,11 @@ export default function Payroll() {
                 <div className={styles.section3}>
 
                     <div className={styles.billingHeading}>
-                    Benefits of Outsourcing Payroll to Us
+                        Benefits of Outsourcing Payroll to Us
                     </div>
 
                     <div className={styles.billingSubHeading}>
-                    Unlock Efficiency, Compliance, and Cost Savings by Outsourcing Your Payroll to Us
+                        Unlock Efficiency, Compliance, and Cost Savings by Outsourcing Your Payroll to Us
                     </div>
 
                     <div className={styles.billingBox}>

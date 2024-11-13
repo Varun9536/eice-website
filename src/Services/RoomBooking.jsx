@@ -192,7 +192,7 @@ export default function RoomBooking() {
                         (
                             <div className={styles.featuresAndImg}>
 
-                                <div >
+                                <div className={styles.featuresContent} >
 
                                     <div className={styles.featuresHeading}>{item.heading}</div>
                                     <div className={styles.featuresDescription}>{item.description}</div>
@@ -221,19 +221,19 @@ export default function RoomBooking() {
 
                 <div className={styles.section3}>
 
-                    <div className={styles.billingHeading}>
+                    <div className={styles.benifitsHeading}>
                     Benefits of Using Our Hotel and Room Booking Software
 
                     </div>
 
-                    <div className={styles.billingSubHeading}>
+                    <div className={styles.benifitsSubHeading}>
                     Unlock Greater Efficiency, Increase Revenue, and Enhance Guest Satisfaction with Our Hotel and Room Booking Software, Offering Real-Time Availability, Seamless Reservations, and Smart Pricing for Optimized Hotel Operations
                     </div>
 
-                    <div className={styles.billingBox}>
+                    <div className={styles.benifitsBox}>
                         {benifits.map((item) =>
                         (
-                            <div className={styles.billingDescriptionBox}>
+                            <div className={styles.benifitsDescriptionBox}>
 
 
                                 <div>
@@ -241,8 +241,8 @@ export default function RoomBooking() {
                                 </div>
 
                                 <div className={styles.summaryDescription}>
-                                    <div className={styles.billingDescriptionHeading}>{item.heading}</div>
-                                    <div className={styles.billingDescriptionSubHeading}>{item.description}</div>
+                                    <div className={styles.benifitsDescriptionHeading}>{item.heading}</div>
+                                    <div className={styles.benifitsDescriptionSubHeading}>{item.description}</div>
                                 </div>
                             </div>
 
@@ -262,7 +262,7 @@ export default function RoomBooking() {
                     Why Choose Our Hotel and Room Booking Software?
                     </div>
                     <div className={styles.chooseUsSubHeading}>
-                    Experience Hassle-Free Reservations, Optimized Room Management, and Increased Revenue with Our Hotel and Room Booking Software – Tailored to Meet the Unique Needs of Your Hospitality Business.
+                    {/* Experience Hassle-Free Reservations, Optimized Room Management, and Increased Revenue with Our Hotel and Room Booking Software – Tailored to Meet the Unique Needs of Your Hospitality Business. */}
                     </div>
 
                     <div className={styles.chooseUsDescription}>

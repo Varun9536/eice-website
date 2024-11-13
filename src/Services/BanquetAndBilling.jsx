@@ -5,6 +5,7 @@ import b2 from "../assets/services/banquet/b2.jpg"
 import f1 from "../assets/services/banquet/f1.png"
 
 
+
 import billing1 from "../assets/services/banquet/billing1.png"
 import { useEffect, useState } from "react";
 
@@ -135,9 +136,6 @@ export default function BanquetAndBilling() {
 
 
 
-
-
-
     const images = [
         b1
     ];
@@ -207,18 +205,11 @@ export default function BanquetAndBilling() {
                                     <img src={item.img} alt="" />
                                 </div>
 
-
-
                             </div>
 
                         ))}
 
-
-
                     </div>
-
-
-
                 </div>
 
                 {/* section3 */}
@@ -251,16 +242,9 @@ export default function BanquetAndBilling() {
 
                         ))}
                     </div>
-
-
-
-
                 </div>
 
             </div>
-
-
-
         </>
     )
 }

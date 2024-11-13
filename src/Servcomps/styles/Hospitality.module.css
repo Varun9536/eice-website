@@ -87,9 +87,10 @@
     margin-top: 4rem;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    /* justify-content: center; */
     gap:  50px;
     /* row-gap: 50px; */
+    justify-content: space-evenly;
 
 
 
@@ -124,4 +125,51 @@
 .featuresDescription {
     font-size: 17px;
 
+}
+
+
+@media (max-width : 1000px)
+{
+
+    .section1
+    {
+        flex-direction: column-reverse;
+       
+    }
+
+    .headingBox {
+        width: 90%;
+        margin: auto;
+        margin-top: 10px;
+    }
+
+    .mainHeading
+    {
+        font-size: 25px;
+        text-align: left;
+        margin-bottom: 10px;
+    }
+
+    .section2Heading
+    {
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+
+    .section2Heading
+    {
+        font-size: 25px;
+
+    }
+
+    .featuresAndImg
+    {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .featuresHeading
+    {
+        font-size: 20px;
+    }
 }

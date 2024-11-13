@@ -95,6 +95,7 @@
     padding: 20px;
     border-radius: 15px;
     gap: 15px;
+    flex-direction: column;
 }
 
 .featuresAndImg:hover {

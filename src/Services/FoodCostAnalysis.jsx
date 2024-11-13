@@ -1,4 +1,4 @@
-import styles from "./styles/payroll.module.css"
+import styles from "./styles/foodcost.module.css"
 
 
 import mainImg from "../assets/services/foodCost/foodcost.webp"

@@ -77,9 +77,6 @@
     justify-content: space-around;
     row-gap: 50px;
 
-
-
-
 }
 
 .featuresAndImg {
@@ -92,7 +89,7 @@
     gap: 15px;
 }
 
-.featuresAndImg img{
+.featuresAndImg img {
     max-width: 200px;
 }
 
@@ -124,7 +121,7 @@
 }
 
 
-.billingHeading {
+.benifitsHeading {
 
     text-align: center;
     font-size: 32px;
@@ -134,14 +131,14 @@
 }
 
 
-.billingSubHeading {
+.benifitsSubHeading {
     text-align: center;
     font-size: 17px;
     color: rgb(51 51 51 / 0.6);
     font-weight: 600;
 }
 
-.billingBox {
+.benifitsBox {
     margin-top: 4rem;
     display: flex;
     flex-wrap: wrap;
@@ -150,28 +147,28 @@
 
 }
 
-.billingDescriptionBox {
+.benifitsDescriptionBox {
     display: flex;
     width: 400px;
-    background-color: rgba(120, 0, 200 , 0.1);
+    background-color: rgba(120, 0, 200, 0.1);
     padding: 20px;
     border-radius: 15px;
     gap: 40px;
 
 }
 
-.billingDescriptionBox:hover {
+.benifitsDescriptionBox:hover {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-.billingDescriptionHeading {
+.benifitsDescriptionHeading {
     font-size: 28px;
     font-weight: 600;
     margin-bottom: 15px;
 }
 
 
-.billingDescriptionSubHeading {
+.benifitsDescriptionSubHeading {
     font-size: 17px;
     color: rgb(51 51 51 / 0.6);
     font-weight: 600;
@@ -179,20 +176,18 @@
 }
 
 
-.section4
-{
+.section4 {
     margin-bottom: 6rem;
 }
-.chooseUsHeading
-{
+
+.chooseUsHeading {
     font-size: 32px;
     font-weight: 600;
-    
+
     text-align: center;
 }
 
-.chooseUsSubHeading
-{
+.chooseUsSubHeading {
     font-size: 17px;
     color: rgb(51 51 51 / 0.6);
     font-weight: 600;
@@ -200,24 +195,102 @@
 }
 
 
-.chooseUsDescription
-{
-    
+.chooseUsDescription {
+
     /* border: 2px solid red; */
-    
+
     font-size: 19px;
-   
+
     color: rgb(51 51 51 / 0.6);
     font-weight: 600;
-   
-    background-color: rgba(255, 204, 255 ,0.3);
+
+    background-color: rgba(255, 204, 255, 0.3);
     width: 80%;
     margin: 0px auto;
     margin-top: 3.5rem;
     padding: 25px 35px;
 }
 
-.chooseUsDescription:hover
-{
+.chooseUsDescription:hover {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+
+
+@media (max-width : 1000px) {
+
+
+
+    .section1 {
+        flex-direction: column-reverse;
+        padding-top: 30px;
+    }
+
+
+    .headingBox {
+
+        width: 90%;
+        margin: auto;
+        margin-top: 30px;
+    }
+
+    .mainHeading {
+        font-size: 25px;
+
+    }
+
+    .section2Heading {
+
+        font-size: 25px;
+        margin-bottom: 10px;
+
+    }
+
+    
+
+
+
+    .featuresAndImg {
+        width: 90%;
+
+
+
+    }
+
+    .featuresHeading {
+        font-size: 20px;
+    }
+
+
+    .benifitsHeading
+    {
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+
+    .benifitsDescriptionBox
+    {
+        width: 90%;
+    }
+
+    .benifitsDescriptionHeading
+    {
+        font-size: 20px;
+    }
+
+    .chooseUsHeading
+    {
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+
+    .chooseUsDescription
+    {
+        width: 90%;
+        margin-top: 2rem;
+    }
+
+
+
 }
