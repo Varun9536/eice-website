@@ -156,7 +156,7 @@ export default function Pos() {
     <>
 
 
-      <div className={`${pos.mainContainer} font-manrope`}>
+      <div className={`${pos.mainContainer} font-manrope  bg-white text-manrope  pt-32 pb-12 px-2 lg:max-w-7xl w-screen mx-auto`}>
 
         <div className={`${pos.section1}`}>
 
@@ -244,7 +244,7 @@ export default function Pos() {
 
                 <div >
                   <div style={{ fontSize: "24px", fontWeight: "600", marginBottom: "10px" }}>{item.heading}</div>
-                  <div> {item.description}</div>
+                  <div className={pos.briefDescription}> {item.description}</div>
                 </div>
 
 

@@ -93,7 +93,7 @@ export default function Hospitality() {
     return (
         <>
 
-            <div className={`${styles.mainConatiner} font-manrope`}>
+            <div className={`${styles.mainConatiner} font-manrope bg-white text-manrope  pt-32 pb-12 px-2 lg:max-w-7xl w-screen mx-auto `}>
                 <div className={styles.section1}>
 
                     <div className={styles.headingBox}>
@@ -148,9 +148,6 @@ export default function Hospitality() {
                                     <div style={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
                                         <img style={{maxWidth : "100%" , width : "70%"}} src={item.img} alt="" />
                                     </div>
-
-
-
                                 </div>
                             </Link>
 

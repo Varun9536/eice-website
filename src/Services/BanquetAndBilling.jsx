@@ -155,7 +155,7 @@ export default function BanquetAndBilling() {
     }, [images.length]);
     return (
         <>
-            <div className={`${styles.mainBox} font-manrope `}>
+            <div className={`${styles.mainBox} font-manrope  bg-white text-manrope  pt-32 pb-12 px-2 lg:max-w-7xl w-screen mx-auto `}>
                 <div className={styles.section1}>
 
                     <div className={styles.headingBox}>
