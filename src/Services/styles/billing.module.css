@@ -1,0 +1,173 @@
+.mainBox {
+    padding: 0px 5em;
+    padding-top: 7rem;
+}
+
+
+.section1 {
+
+
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 7rem;
+
+
+}
+
+.headingBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 22px;
+}
+
+.mainHeading {
+
+    font-size: 38px;
+    font-weight: 600;
+    margin-bottom: 20px;
+
+}
+
+.mainSubHeading {
+    font-size: 17px;
+    color: rgb(51 51 51 / 0.6);
+    font-weight: 600;
+
+}
+
+.mainImageBox {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+
+}
+
+.mainImage {
+    width: 65%;
+    border-radius: 90px;
+}
+
+
+/* section2 */
+
+.section2 {
+    margin-bottom: 6rem;
+}
+
+.section2Heading {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+
+.section2SubHeading {
+    text-align: center;
+    font-size: 17px;
+    color: rgb(51 51 51 / 0.6);
+    font-weight: 600;
+}
+
+
+.featuresBox {
+    margin-top: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    row-gap: 50px;
+
+
+
+
+}
+
+.featuresAndImg {
+    display: flex;
+    width: 500px;
+    background-color: rgba(128, 0, 128, 0.2);
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.featuresAndImg:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+.featuresHeading {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+
+
+
+.featuresDescription {
+    font-size: 17px;
+    color: rgb(51 51 51 / 0.6);
+    font-weight: 600;
+}
+
+
+
+.section3 {
+    margin-bottom: 6rem;
+}
+
+
+.billingHeading {
+
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+
+
+}
+
+
+.billingSubHeading {
+    text-align: center;
+    font-size: 17px;
+    color: rgb(51 51 51 / 0.6);
+    font-weight: 600;
+}
+
+.billingBox {
+    margin-top: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    row-gap: 50px;
+
+}
+
+.billingDescriptionBox {
+    display: flex;
+    width: 400px;
+    background-color: rgba(204, 238, 255, 0.5);
+    padding: 20px;
+    border-radius: 15px;
+    gap: 40px;
+
+}
+
+.billingDescriptionBox:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.billingDescriptionHeading {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+
+.billingDescriptionSubHeading {
+    font-size: 17px;
+    color: rgb(51 51 51 / 0.6);
+    font-weight: 600;
+
+}
