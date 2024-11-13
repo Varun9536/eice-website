@@ -18,17 +18,17 @@
 }
 
 .headingBox {
+    width: 60%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    row-gap: 22px;
 }
 
 .mainHeading {
 
     font-size: 38px;
     font-weight: 600;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 
 }
 
@@ -48,8 +48,9 @@
 }
 
 .mainImage {
-    width: 65%;
-    border-radius: 90px;
+    border-radius: 40px;
+    width: 500px;
+    margin: 0px auto;
 }
 
 
@@ -230,11 +231,12 @@
 
     .mainHeading {
         font-size: 25px;
-        margin-bottom: 0px;
+        margin-bottom: 10px;
     }
 
     .headingBox {
         padding: 15px;
+        width: unset;
     }
 
     .mainImageBox {
@@ -252,6 +254,7 @@
 
     .section2Heading {
         font-size: 25px;
+        margin-bottom: 15px;
     }
 
     .featuresAndImg {
@@ -260,11 +263,13 @@
 
     .featuresHeading {
         font-size: 20px;
+        margin-bottom: 15px;
     }
 
 
     .billingHeading {
         font-size: 25px;
+        margin-bottom: 15px;
     }
 
     .billingDescriptionBox {
@@ -279,6 +284,7 @@
     .chooseUsHeading
     {
         font-size: 25px;
+        margin-bottom: 15px;
     }
 
     .chooseUsDescription

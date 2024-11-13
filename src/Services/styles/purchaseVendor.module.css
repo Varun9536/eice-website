@@ -1,14 +1,19 @@
+
 /* .mainBox {
-    padding: 0px 5em;
-    padding-top: 5rem;
+   
+    max-width: 80rem;
+    width: 100vw;
+    margin: 0px auto;
 } */
 
 
 .section1 {
 
+
     display: flex;
     justify-content: space-between;
     margin-bottom: 7rem;
+
 
 }
 
@@ -17,7 +22,6 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-
 }
 
 .mainHeading {
@@ -33,19 +37,20 @@
     color: rgb(51 51 51 / 0.6);
     font-weight: 600;
 
-
 }
 
-/* .mainImageBox {
+.mainImageBox {
+    display: flex;
+    justify-content: end;
+    align-items: center;
 
 
-} */
+}
 
 .mainImage {
     border-radius: 40px;
     width: 450px;
     margin: 0px auto;
-
 }
 
 
@@ -85,11 +90,9 @@
 .featuresAndImg {
     display: flex;
     width: 500px;
-    /* background-color: rgba(128, 0, 128, 0.2); */
-    background-color: hsl(213, 58%, 96%);
+    background-color: rgba(128, 0, 128, 0.2);
     padding: 20px;
     border-radius: 15px;
-    gap: 15px;
 }
 
 .featuresAndImg:hover {
@@ -110,7 +113,6 @@
     font-size: 17px;
     color: rgb(51 51 51 / 0.6);
     font-weight: 600;
-
 }
 
 
@@ -149,7 +151,7 @@
 .billingDescriptionBox {
     display: flex;
     width: 400px;
-    background-color: rgba(120, 0, 255 , 0.1);
+    background-color: rgba(204, 238, 255, 0.5);
     padding: 20px;
     border-radius: 15px;
     gap: 40px;
@@ -175,6 +177,9 @@
 }
 
 
+
+
+
 .section4
 {
     margin-bottom: 6rem;
@@ -189,11 +194,10 @@
 
 .chooseUsSubHeading
 {
-   
-    text-align: center;
     font-size: 17px;
     color: rgb(51 51 51 / 0.6);
     font-weight: 600;
+    text-align: center;
 }
 
 
@@ -203,18 +207,88 @@
     /* border: 2px solid red; */
     
     font-size: 19px;
-    font-weight: 500;
+   
+    color: rgb(51 51 51 / 0.6);
+    font-weight: 600;
+   
     background-color: rgba(255, 204, 255 ,0.3);
     width: 80%;
     margin: 0px auto;
     margin-top: 3.5rem;
     padding: 25px 35px;
-    font-size: 17px;
-    color: rgb(51 51 51 / 0.6);
-    font-weight: 600;
 }
 
 .chooseUsDescription:hover
 {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+@media (max-width : 1000px) {
+    .section1 {
+        flex-direction: column-reverse;
+    }
+
+    .mainHeading {
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+
+    .headingBox {
+        padding: 15px;
+        width: unset;
+    }
+
+    .mainImageBox {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+
+
+    }
+
+    .mainImage {
+        width: 85%;
+        border-radius: 30px;
+    }
+
+    .section2Heading {
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+
+    .featuresAndImg {
+        width: 90%;
+    }
+
+    .featuresHeading {
+        font-size: 20px;
+    }
+
+
+    .billingHeading {
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+
+    .billingDescriptionBox {
+        width: 90%;
+    }
+
+    .billingDescriptionHeading {
+        font-size: 20px;
+    }
+
+
+    .chooseUsHeading
+    {
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+
+    .chooseUsDescription
+    {
+        width: 90%;
+        margin-top: 2rem;
+    }
 }

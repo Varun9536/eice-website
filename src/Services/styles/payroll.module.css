@@ -179,3 +179,61 @@
     font-weight: 600;
 
 }
+
+
+@media (max-width : 1000px) {
+    .section1 {
+        flex-direction: column-reverse;
+    }
+
+    .mainHeading {
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+
+    .headingBox {
+        padding: 15px;
+        width: unset;
+    }
+
+    .mainImageBox {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+
+
+    }
+
+    .mainImage {
+        width: 85%;
+        border-radius: 30px;
+    }
+
+    .section2Heading {
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+
+    .featuresAndImg {
+        width: 90%;
+    }
+
+    .featuresHeading {
+        font-size: 20px;
+       
+    }
+
+
+    .billingHeading {
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+
+    .billingDescriptionBox {
+        width: 90%;
+    }
+
+    .billingDescriptionHeading {
+        font-size: 20px;
+    }
+}
