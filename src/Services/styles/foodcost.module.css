@@ -23,7 +23,7 @@
 
 .mainHeading {
 
-    font-size: 38px;
+    font-size: 32px;
     font-weight: 600;
     margin-bottom: 20px;
 
@@ -56,7 +56,7 @@
 
 .section2Heading {
     text-align: center;
-    font-size: 32px;
+    font-size: 28px;
     font-weight: 600;
 }
 
@@ -95,7 +95,7 @@
 
 
 .featuresHeading {
-    font-size: 28px;
+    font-size: 24px;
     font-weight: 600;
     margin-bottom: 15px;
 }
@@ -118,7 +118,7 @@
 .billingHeading {
 
     text-align: center;
-    font-size: 32px;
+    font-size: 28px;
     font-weight: 600;
 
 
@@ -154,7 +154,7 @@
 }
 
 .billingDescriptionHeading {
-    font-size: 28px;
+    font-size: 24px;
     font-weight: 600;
     margin-bottom: 15px;
 }

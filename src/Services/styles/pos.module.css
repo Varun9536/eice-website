@@ -20,7 +20,7 @@
 }
 
 .heading {
-    font-size: 38px;
+    font-size: 32px;
     font-weight: 600;
     color: #333333;
 
@@ -61,7 +61,7 @@
 
 .section2Heading {
     text-align: center;
-    font-size: 34px;
+    font-size: 24px;
     font-weight: 600;
 }
 
@@ -116,7 +116,7 @@
 }
 
 .bussinessPlaces {
-    font-size: 25px;
+    font-size: 24px;
     font-weight: 600;
 
 }
@@ -133,7 +133,7 @@
 }
 
 .formHeading {
-    font-size: 35px;
+    font-size: 28px;
     text-align: center;
     font-weight: 600;
 }
@@ -183,7 +183,7 @@ textarea {
 
 .section3Heading {
 
-    font-size: 35px;
+    font-size: 28px;
     text-align: center;
     font-weight: 600;
 
@@ -237,7 +237,7 @@ textarea {
 
 
 .section4Heading {
-    font-size: 35px;
+    font-size: 28px;
     text-align: center;
     font-weight: 600;
 
