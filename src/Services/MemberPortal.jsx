@@ -11,122 +11,203 @@ import { useEffect, useState } from "react";
 
 export default function MemberPortal() {
 
+    // const features = [
+    //     {
+    //         heading: "Customizable Dashboard",
+    //         description: "Our system automates the entire payroll process, saving you time and reducing the risk of human errors. From salary calculations to deductions, everything is handled smoothly and accurately",
+    //         img: b1,
+    //         width: "700px"
+
+
+
+    //     },
+
+    //     {
+    //         heading: "Secure Document Storage",
+    //         description: "Our system automates the entire payroll process, saving you time and reducing the risk of human errors. From salary calculations to deductions, everything is handled smoothly and accurately",
+    //         img: b1,
+    //         width: "500px"
+
+    //     },
+
+    //     {
+    //         heading: "Seamless Communication Tools",
+    //         description: "Our system automates the entire payroll process, saving you time and reducing the risk of human errors. From salary calculations to deductions, everything is handled smoothly and accurately",
+    //         img: b1,
+    //         width: "500px"
+    //     },
+
+    //     {
+    //         heading: "Flexible Membership Management",
+    //         description: "Our system automates the entire payroll process, saving you time and reducing the risk of human errors. From salary calculations to deductions, everything is handled smoothly and accurately",
+    //         img: b1,
+    //         width: "500px"
+    //     },
+
+    //     {
+    //         heading: "Resource Library & Knowledge Base",
+    //         description: "Our system automates the entire payroll process, saving you time and reducing the risk of human errors. From salary calculations to deductions, everything is handled smoothly and accurately",
+    //         img: b1,
+    //         width: "500px"
+    //     },
+
+    //     {
+    //         heading: "Integrated Payment & Billing",
+    //         description: "Our system automates the entire payroll process, saving you time and reducing the risk of human errors. From salary calculations to deductions, everything is handled smoothly and accurately",
+    //         img: b1,
+    //         width: "500px"
+    //     },
+
+
+    // ]
+
+
     const features = [
         {
-            heading: "Customizable Dashboard",
-            description: "Our system automates the entire payroll process, saving you time and reducing the risk of human errors. From salary calculations to deductions, everything is handled smoothly and accurately",
+            heading: "Membership Registration and Management",
+            description: "Easily manage different membership tiers with customizable options for individuals, families, and corporates.",
             img: b1,
             width: "700px"
-
-
-
         },
-
         {
-            heading: "Secure Document Storage",
-            description: "Our system automates the entire payroll process, saving you time and reducing the risk of human errors. From salary calculations to deductions, everything is handled smoothly and accurately",
-            img: b1,
-            width: "500px"
-
-        },
-
-        {
-            heading: "Seamless Communication Tools",
-            description: "Our system automates the entire payroll process, saving you time and reducing the risk of human errors. From salary calculations to deductions, everything is handled smoothly and accurately",
+            heading: "Self-Service Portal",
+            description: "Allow members to update profiles, renew subscriptions, and access exclusive offers at their convenience.",
             img: b1,
             width: "500px"
         },
-
         {
-            heading: "Flexible Membership Management",
-            description: "Our system automates the entire payroll process, saving you time and reducing the risk of human errors. From salary calculations to deductions, everything is handled smoothly and accurately",
+            heading: "Subscription Management",
+            description: "Automate renewals, payments, and reminders, ensuring smooth and timely member engagement.",
             img: b1,
             width: "500px"
         },
-
         {
-            heading: "Resource Library & Knowledge Base",
-            description: "Our system automates the entire payroll process, saving you time and reducing the risk of human errors. From salary calculations to deductions, everything is handled smoothly and accurately",
+            heading: "Exclusive Member Benefits",
+            description: "Offer special perks like priority bookings, discounts, and access to exclusive events to enhance the member experience.",
             img: b1,
             width: "500px"
         },
-
         {
-            heading: "Integrated Payment & Billing",
-            description: "Our system automates the entire payroll process, saving you time and reducing the risk of human errors. From salary calculations to deductions, everything is handled smoothly and accurately",
+            heading: "Integrated Communication Tools",
+            description: "Use real-time communication through emails, push notifications, and in-app messages to keep members updated on offers and events.",
             img: b1,
             width: "500px"
         },
-
-
-    ]
-
-
-
-    const benifits = [
         {
-            heading: "Enhanced Member Engagement",
-            description: "By outsourcing payroll to us, you eliminate the need for in-house payroll management. This reduces administrative workload, allowing your team to focus on core business operations, while cutting down on overhead costs.",
+            heading: "Analytics Dashboard",
+            description: "Access detailed insights into member activity and preferences to tailor services and improve engagement.",
+            img: b1,
+            width: "500px"
+        }
+    ];
+
+
+
+    // const benifits = [
+    //     {
+    //         heading: "Enhanced Member Engagement",
+    //         description: "By outsourcing payroll to us, you eliminate the need for in-house payroll management. This reduces administrative workload, allowing your team to focus on core business operations, while cutting down on overhead costs.",
+    //         img: f1,
+    //         width: "500px"
+
+
+
+    //     },
+
+    //     {
+    //         heading: "Streamlined Membership Management",
+    //         description: "By outsourcing payroll to us, you eliminate the need for in-house payroll management. This reduces administrative workload, allowing your team to focus on core business operations, while cutting down on overhead costs.",
+    //         img: f1,
+    //         width: "500px"
+
+
+
+    //     },
+
+    //     {
+    //         heading: "Improved Accessibility and Convenience",
+    //         description: "By outsourcing payroll to us, you eliminate the need for in-house payroll management. This reduces administrative workload, allowing your team to focus on core business operations, while cutting down on overhead costs.",
+    //         img: f1,
+    //         width: "500px"
+
+
+
+    //     },
+
+    //     {
+    //         heading: "Data Security and Privacy",
+    //         description: "By outsourcing payroll to us, you eliminate the need for in-house payroll management. This reduces administrative workload, allowing your team to focus on core business operations, while cutting down on overhead costs.",
+    //         img: f1,
+    //         width: "500px"
+
+
+
+    //     },
+
+    //     {
+    //         heading: "Real-Time Updates and Notifications",
+    //         description: "By outsourcing payroll to us, you eliminate the need for in-house payroll management. This reduces administrative workload, allowing your team to focus on core business operations, while cutting down on overhead costs.",
+    //         img: f1,
+    //         width: "500px"
+
+
+
+    //     },
+
+    //     {
+    //         heading: "Increased Member Retention",
+    //         description: "By outsourcing payroll to us, you eliminate the need for in-house payroll management. This reduces administrative workload, allowing your team to focus on core business operations, while cutting down on overhead costs.",
+    //         img: f1,
+    //         width: "500px"
+
+
+
+    //     },
+
+
+
+    // ]
+
+
+    const benefits = [
+        {
+            heading: "Enhanced Member Experience",
+            description: "Personalize services and streamline processes, boosting member satisfaction and loyalty.",
             img: f1,
             width: "500px"
-
-
-
         },
-
         {
-            heading: "Streamlined Membership Management",
-            description: "By outsourcing payroll to us, you eliminate the need for in-house payroll management. This reduces administrative workload, allowing your team to focus on core business operations, while cutting down on overhead costs.",
+            heading: "Operational Efficiency",
+            description: "Automate tasks like renewals and notifications, reducing manual effort and improving operational workflows.",
             img: f1,
             width: "500px"
-
-
-
         },
-
         {
-            heading: "Improved Accessibility and Convenience",
-            description: "By outsourcing payroll to us, you eliminate the need for in-house payroll management. This reduces administrative workload, allowing your team to focus on core business operations, while cutting down on overhead costs.",
+            heading: "Data-Driven Insights",
+            description: "Use analytics to gain a deeper understanding of member preferences, helping to refine offerings and services.",
             img: f1,
             width: "500px"
-
-
-
         },
-
-        {
-            heading: "Data Security and Privacy",
-            description: "By outsourcing payroll to us, you eliminate the need for in-house payroll management. This reduces administrative workload, allowing your team to focus on core business operations, while cutting down on overhead costs.",
-            img: f1,
-            width: "500px"
-
-
-
-        },
-
-        {
-            heading: "Real-Time Updates and Notifications",
-            description: "By outsourcing payroll to us, you eliminate the need for in-house payroll management. This reduces administrative workload, allowing your team to focus on core business operations, while cutting down on overhead costs.",
-            img: f1,
-            width: "500px"
-
-
-
-        },
-
         {
             heading: "Increased Member Retention",
-            description: "By outsourcing payroll to us, you eliminate the need for in-house payroll management. This reduces administrative workload, allowing your team to focus on core business operations, while cutting down on overhead costs.",
+            description: "Provide exclusive benefits and rewards, encouraging members to stay engaged and renew their subscriptions.",
             img: f1,
             width: "500px"
-
-
-
         },
+        {
+            heading: "Improved Communication",
+            description: "Keep members informed in real-time with notifications and updates, enhancing engagement and participation.",
+            img: f1,
+            width: "500px"
+        },
+        {
+            heading: "Secure and Convenient Access",
+            description: "Ensure data security with secure login and easy access to membership details, improving overall user experience.",
+            img: f1,
+            width: "500px"
+        }
+    ];
 
-
-
-    ]
 
 
 
@@ -200,7 +281,7 @@ export default function MemberPortal() {
                                 </div>
 
                                 <div style={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
-                                    <img style={{ maxWidth: "80%" }} src={item.img} alt="" />
+                                    <img style={{ maxWidth: "60%" }} src={item.img} alt="" />
                                 </div>
 
 
@@ -231,13 +312,13 @@ export default function MemberPortal() {
                     </div>
 
                     <div className={styles.billingBox}>
-                        {benifits.map((item) =>
+                        {benefits.map((item) =>
                         (
                             <div className={styles.billingDescriptionBox}>
 
 
                                 <div>
-                                    <img style={{ width: "700px" }} src={item.img} alt="" />
+                                    {/* <img style={{ width: "700px" }} src={item.img} alt="" /> */}
                                 </div>
 
                                 <div className={styles.summaryDescription}>
