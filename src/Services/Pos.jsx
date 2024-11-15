@@ -62,55 +62,98 @@ export default function Pos() {
 
   ]
 
+  // const features = [
+  //   {
+  //     heading: "Effortless Inventory Management",
+  //     description: " Real-time tracking of stock levels, automatic low-stock alerts, and easy organization of products to minimize stock-outs and reduce wastage",
+  //     img: inventry,
+  //     width: "500px"
+
+
+
+  //   },
+
+  //   {
+  //     heading: "Secure, Flexible Payment Processing",
+  //     description: "Accept payments from multiple sources (cash, credit cards, mobile payments) with end-to-end encryption to ensure customer data security",
+  //     img: payment,
+  //     width: "450px"
+
+  //   },
+
+  //   {
+  //     heading: "Detailed Sales and Customer Insights",
+  //     description: "Generate insightful reports on sales trends, customer preferences, and peak times, empowering businesses to make data-driven decisions",
+  //     img: sales,
+  //     width: "400px"
+  //   },
+
+  //   {
+  //     heading: "Multi-Location Management",
+  //     description: "Seamlessly manage multiple store locations from a single dashboard, with centralized control over inventory, pricing, and reporting",
+  //     img: location,
+  //     width: "340px"
+  //   },
+
+  //   {
+  //     heading: "User-Friendly Interface",
+  //     description: "Intuitive design with easy navigation, ensuring a smooth learning curve for new users and efficiency for experienced operators",
+  //     img: ui,
+  //     width: "400px"
+  //   },
+
+  //   {
+  //     heading: "Employee Management",
+  //     description: "Track employee performance, manage shifts, and handle payroll efficiently, making workforce management simpler and more transparent",
+  //     img: emp,
+  //     width: "400px"
+  //   },
+
+
+  // ]
+
+
+
+
   const features = [
     {
-      heading: "Effortless Inventory Management",
-      description: " Real-time tracking of stock levels, automatic low-stock alerts, and easy organization of products to minimize stock-outs and reduce wastage",
-      img: inventry,
-      width: "500px"
-
-
-
-    },
-
-    {
-      heading: "Secure, Flexible Payment Processing",
-      description: "Accept payments from multiple sources (cash, credit cards, mobile payments) with end-to-end encryption to ensure customer data security",
-      img: payment,
-      width: "450px"
-
-    },
-
-    {
-      heading: "Detailed Sales and Customer Insights",
-      description: "Generate insightful reports on sales trends, customer preferences, and peak times, empowering businesses to make data-driven decisions",
-      img: sales,
-      width: "400px"
-    },
-
-    {
-      heading: "Multi-Location Management",
-      description: "Seamlessly manage multiple store locations from a single dashboard, with centralized control over inventory, pricing, and reporting",
-      img: location,
-      width: "340px"
-    },
-
-    {
       heading: "User-Friendly Interface",
-      description: "Intuitive design with easy navigation, ensuring a smooth learning curve for new users and efficiency for experienced operators",
-      img: ui,
-      width: "400px"
+      description: "The intuitive tablet-based POS system helps staff manage orders quickly and efficiently, reducing wait times and enhancing service quality.",
+      img: inventry,  // Updated img key from previous array
+      width: "500px"  // Updated width value
     },
-
     {
-      heading: "Employee Management",
-      description: "Track employee performance, manage shifts, and handle payroll efficiently, making workforce management simpler and more transparent",
-      img: emp,
-      width: "400px"
+      heading: "Real-Time Menu Management",
+      description: "Allows instant updates to the menu, ensuring that specials, seasonal items, and pricing changes are reflected consistently across all devices.",
+      img: payment,  // Updated img key from previous array
+      width: "450px"  // Updated width value
     },
-
-
-  ]
+    {
+      heading: "Order Customization",
+      description: "Provides guests the option to customize their orders based on dietary restrictions or ingredient substitutions, ensuring a personalized dining experience.",
+      img: sales,  // Updated img key from previous array
+      width: "400px"  // Updated width value
+    },
+    {
+      heading: "Integrated Payment Solutions",
+      description: "Supports multiple payment methods such as credit/debit cards, UPI, mobile wallets, and contactless payments, offering a seamless checkout experience.",
+      img: location,  // Updated img key from previous array
+      width: "340px"  // Updated width value
+    },
+    {
+      heading: "Inventory Tracking",
+      description: "Automatically tracks ingredient usage and stock levels, with alerts for low-stock items, preventing service disruptions and ensuring timely replenishment.",
+      img: ui,  // Updated img key from previous array
+      width: "400px"  // Updated width value
+    },
+    {
+      heading: "Real-Time Sales Reporting",
+      description: "Provides insights into daily revenue, top-selling items, and customer preferences, helping businesses make informed decisions to improve operations.",
+      img: emp,  // Updated img key from previous array
+      width: "400px"  // Updated width value
+    }
+  ];
+  
 
 
   const chooseUsdescription = [
@@ -197,8 +240,7 @@ export default function Pos() {
           </div>
 
           <div className={`${pos.section2Description}`}>
-            Boost productivity, reduce complexity, and improve customer satisfaction with a POS system that’s designed for every aspect of your business. Whether it's real-time reporting or multi-location support, we provide the tools you need to succeed.
-            Our POS software is crafted to support and simplify daily operations, from checkout to inventory tracking. Experience a flexible, reliable, and efficient system that drives growth for businesses of all types
+          The Dining (POS) module of EICE Rise ERP is designed to revolutionize the food and beverage services in your hospitality establishment. It offers a robust, user-friendly Point of Sale (POS) system tailored for restaurants, cafes, bars, and banquet services. Whether you are managing a single restaurant or multiple dining outlets, this module provides a seamless, integrated experience that enhances operational efficiency and customer satisfaction.
           </div>
 
           <div className={`${pos.section2BusinessCategory}`}>

@@ -167,36 +167,42 @@ export default function RoomBooking() {
 
     const benefits = [
         {
-            heading: "Effortless Booking Process",
-            description: "Easily book suites, deluxe, and standard rooms with integrated Wi-Fi access, providing guests with a convenient and comfortable experience.",
-            img: b1,
-            width: "500px"
+          heading: "Effortless Booking Process",
+          description: "Easily book suites, deluxe, and standard rooms with integrated Wi-Fi access, providing guests with a convenient and comfortable experience.",
+          img: b1,
+          width: "500px"
         },
         {
-            heading: "Improved Guest Satisfaction",
-            description: "Simplifies the booking procedure, improving customer satisfaction and loyalty by offering a seamless and stress-free experience.",
-            img: b1,
-            width: "500px"
+          heading: "Enhanced Guest Experience",
+          description: "Simplifies the booking process, increasing customer satisfaction and loyalty by offering a smooth, user-friendly experience from reservation to check-in.",
+          img: b1,
+          width: "500px"
         },
         {
-            heading: "Increased Operational Efficiency",
-            description: "Reduces the manual workload on staff, minimizes booking errors, and enhances operational flow, allowing team members to focus on delivering exceptional guest services.",
-            img: b1,
-            width: "500px"
+          heading: "Increased Operational Efficiency",
+          description: "Reduces the manual workload for staff, minimizes booking errors, and streamlines processes, enabling staff to focus on delivering outstanding guest services.",
+          img: b1,
+          width: "500px"
         },
         {
-            heading: "Optimized Revenue Generation",
-            description: "Boosts room occupancy and drives revenue growth through dynamic pricing strategies, promotional offers, and real-time availability management.",
-            img: b1,
-            width: "500px"
+          heading: "Revenue Maximization",
+          description: "Optimizes room occupancy and boosts revenue through dynamic pricing, targeted promotions, and real-time inventory management.",
+          img: b1,
+          width: "500px"
         },
         {
-            heading: "Centralized Control",
-            description: "Centralizes all room bookings on a single platform, simplifying management and offering greater visibility to streamline room allocation and optimize resource management.",
-            img: b1,
-            width: "500px"
+          heading: "Centralized Booking Management",
+          description: "Offers a unified platform for handling all room reservations, reducing administrative complexity and providing better visibility for effective resource allocation.",
+          img: b1,
+          width: "500px"
+        },
+        {
+          heading: "Data-Driven Insights",
+          description: "Provides comprehensive analytics on booking trends, guest preferences, and occupancy rates, allowing for data-driven decision-making and strategic planning.",
+          img: b1,
+          width: "500px"
         }
-    ];
+      ];
 
 
 
@@ -310,7 +316,7 @@ export default function RoomBooking() {
 
 
                                 <div>
-                                    <img style={{ width: "700px" }} src={item.img} alt="" />
+                                    {/* <img style={{ width: "700px" }} src={item.img} alt="" /> */}
                                 </div>
 
                                 <div className={styles.summaryDescription}>

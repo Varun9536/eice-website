@@ -13,122 +13,154 @@ export default function BanquetAndBilling() {
 
 
 
+
+
     const features = [
         {
-            heading: "Effortless Inventory Management",
-            description: " Real-time tracking of stock levels, automatic low-stock alerts, and easy organization of products to minimize stock-outs and reduce wastage",
-            img: f1,
+            heading: "Effortless Event Booking",
+            description: "Quickly reserve venues and manage booking schedules for multiple events, with real-time availability updates.",
+            img: f1,  // img set to the already declared variable 'b1'
             width: "500px"
-
-
-
         },
-
         {
-            heading: "Secure, Flexible Payment Processing",
-            description: "Accept payments from multiple sources (cash, credit cards, mobile payments) with end-to-end encryption to ensure customer data security",
-            img: f1,
+            heading: "Customized Packages and Pricing",
+            description: "Create tailored event packages, allowing clients to choose from various services, amenities, and F&B options to suit their preferences.",
+            img: f1,  // img set to the already declared variable 'b1'
             width: "450px"
-
         },
-
         {
-            heading: "Detailed Sales and Customer Insights",
-            description: "Generate insightful reports on sales trends, customer preferences, and peak times, empowering businesses to make data-driven decisions",
-            img: f1,
+            heading: "Digital Contracts and Invoicing",
+            description: "Generate digital contracts and detailed invoices for events, with transparent breakdowns of services, charges, and taxes.",
+            img: f1,  // img set to the already declared variable 'b1'
             width: "400px"
         },
-
         {
-            heading: "Multi-Location Management",
-            description: "Seamlessly manage multiple store locations from a single dashboard, with centralized control over inventory, pricing, and reporting",
-            img: f1,
+            heading: "Integrated Resource Management",
+            description: "Allocate staff, catering, and equipment based on event requirements, optimizing resources and reducing overbooking risks.",
+            img: f1,  // img set to the already declared variable 'b1'
             width: "340px"
         },
-
         {
-            heading: "User-Friendly Interface",
-            description: "Intuitive design with easy navigation, ensuring a smooth learning curve for new users and efficiency for experienced operators",
-            img: f1,
+            heading: "Automated Billing System",
+            description: "Streamline the billing process with automatic calculations for room charges, F&B services, and additional event-related costs.",
+            img: f1,  // img set to the already declared variable 'b1'
             width: "400px"
         },
-
         {
-            heading: "Employee Management",
-            description: "Track employee performance, manage shifts, and handle payroll efficiently, making workforce management simpler and more transparent",
-            img: f1,
+            heading: "Comprehensive Reports",
+            description: "Access real-time reports on event bookings, revenue, and client preferences, enabling better forecasting and decision-making.",
+            img: f1,  // img set to the already declared variable 'b1'
+            width: "400px"
+        }
+    ];
+
+
+
+    // const benefits = [
+    //     {
+    //         heading: "Billing Summary",
+    //         description: " A quick overview of your charges, deposits, and outstanding balance. This section provides a transparent breakdown of all costs associated with your event",
+    //         img: billing1,
+    //         width: "500px"
+
+
+
+    //     },
+
+    //     {
+    //         heading: "Billing Summary",
+    //         description: " A quick overview of your charges, deposits, and outstanding balance. This section provides a transparent breakdown of all costs associated with your event",
+    //         img: billing1,
+    //         width: "500px"
+
+
+
+    //     },
+
+    //     {
+    //         heading: "Billing Summary",
+    //         description: " A quick overview of your charges, deposits, and outstanding balance. This section provides a transparent breakdown of all costs associated with your event",
+    //         img: billing1,
+    //         width: "500px"
+
+
+
+    //     },
+
+    //     {
+    //         heading: "Billing Summary",
+    //         description: " A quick overview of your charges, deposits, and outstanding balance. This section provides a transparent breakdown of all costs associated with your event",
+    //         img: billing1,
+    //         width: "500px"
+
+
+
+    //     },
+
+    //     {
+    //         heading: "Billing Summary",
+    //         description: " A quick overview of your charges, deposits, and outstanding balance. This section provides a transparent breakdown of all costs associated with your event",
+    //         img: billing1,
+    //         width: "500px"
+
+
+
+    //     },
+
+    //     {
+    //         heading: "Billing Summary",
+    //         description: " A quick overview of your charges, deposits, and outstanding balance. This section provides a transparent breakdown of all costs associated with your event",
+    //         img: billing1,
+    //         width: "500px"
+
+
+
+    //     },
+
+
+
+    // ]
+
+
+    const benefits = [
+        {
+            heading: "Effortless Slot Booking & Management",
+            description: "Easily book and manage slots for weddings, conferences, or parties, offering a seamless experience with integrated services like Wi-Fi and catering options.",
+            img: billing1,  // img set to the already declared variable 'b1'
+            width: "500px"
+        },
+        {
+            heading: "Efficient Event Management",
+            description: "Streamlines booking and scheduling, reducing administrative tasks and enhancing overall efficiency for event planners.",
+            img: billing1,  // img set to the already declared variable 'b1'
+            width: "450px"
+        },
+        {
+            heading: "Personalized Client Experience",
+            description: "Customizable packages enable clients to select services tailored to their specific needs, increasing satisfaction and fostering client loyalty.",
+            img: billing1,  // img set to the already declared variable 'b1'
             width: "400px"
         },
-
-
-    ]
-
-
-
-    const billing = [
         {
-            heading: "Billing Summary",
-            description: " A quick overview of your charges, deposits, and outstanding balance. This section provides a transparent breakdown of all costs associated with your event",
-            img: billing1,
-            width: "500px"
-
-
-
+            heading: "Transparent Transactions",
+            description: "Digital contracts and invoicing provide a clear breakdown of charges, building trust and reducing the risk of disputes.",
+            img: billing1,  // img set to the already declared variable 'b1'
+            width: "340px"
         },
-
         {
-            heading: "Billing Summary",
-            description: " A quick overview of your charges, deposits, and outstanding balance. This section provides a transparent breakdown of all costs associated with your event",
-            img: billing1,
-            width: "500px"
-
-
-
+            heading: "Optimized Resource Allocation",
+            description: "Ensures efficient management of staff and equipment, preventing overbooking and maximizing service quality for each event.",
+            img: billing1,  // img set to the already declared variable 'b1'
+            width: "400px"
         },
-
         {
-            heading: "Billing Summary",
-            description: " A quick overview of your charges, deposits, and outstanding balance. This section provides a transparent breakdown of all costs associated with your event",
-            img: billing1,
-            width: "500px"
+            heading: "Streamlined Billing Process",
+            description: "Automated billing accurately calculates charges, saving time and minimizing errors during payment.",
+            img: billing1,  // img set to the already declared variable 'b1'
+            width: "400px"
+        }
+    ];
 
-
-
-        },
-
-        {
-            heading: "Billing Summary",
-            description: " A quick overview of your charges, deposits, and outstanding balance. This section provides a transparent breakdown of all costs associated with your event",
-            img: billing1,
-            width: "500px"
-
-
-
-        },
-
-        {
-            heading: "Billing Summary",
-            description: " A quick overview of your charges, deposits, and outstanding balance. This section provides a transparent breakdown of all costs associated with your event",
-            img: billing1,
-            width: "500px"
-
-
-
-        },
-
-        {
-            heading: "Billing Summary",
-            description: " A quick overview of your charges, deposits, and outstanding balance. This section provides a transparent breakdown of all costs associated with your event",
-            img: billing1,
-            width: "500px"
-
-
-
-        },
-
-
-
-    ]
 
 
 
@@ -225,7 +257,7 @@ export default function BanquetAndBilling() {
                     </div>
 
                     <div className={styles.billingBox}>
-                        {billing.map((item) =>
+                        {benefits.map((item) =>
                         (
                             <div className={styles.billingDescriptionBox}>
 
