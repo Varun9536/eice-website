@@ -93,7 +93,7 @@ export default function Hospitality() {
     return (
         <>
 
-            <div className={`${styles.mainConatiner} font-manrope bg-white text-manrope  pt-24 pb-12 px-2 lg:max-w-7xl w-screen mx-auto `}>
+            <div className={`${styles.mainConatiner} font-manrope bg-white text-manrope  pt-28 pb-12 px-2 lg:max-w-7xl w-screen mx-auto `}>
                 <div className={styles.section1}>
 
                     <div className={styles.headingBox}>
