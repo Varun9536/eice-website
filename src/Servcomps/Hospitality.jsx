@@ -1,6 +1,7 @@
 import styles from "./styles/Hospitality.module.css"
-import mainImg from "../assets/Hospitality/mainhos.webp"
-import { Link} from "react-router-dom"
+// import mainImg from "../assets/Hospitality/mainhos.webp"
+import mainImg from "../assets/hospitalityMain/hospitalitypage/Herosection.png"
+import { Link } from "react-router-dom"
 
 
 
@@ -14,6 +15,14 @@ import member from "../assets/Hospitality/hospitalityIcon/member.png"
 import payroll from "../assets/Hospitality/hospitalityIcon/payroll.png"
 import room from "../assets/Hospitality/hospitalityIcon/room2.png"
 import vendor from "../assets/Hospitality/hospitalityIcon/vendor.png"
+
+
+
+
+// background 
+
+
+
 
 export default function Hospitality() {
 
@@ -93,13 +102,13 @@ export default function Hospitality() {
     return (
         <>
 
-            <div className={`${styles.mainConatiner} font-manrope bg-white text-manrope  pt-28 pb-12 px-2 lg:max-w-7xl w-screen mx-auto `}>
+            <div className={`${styles.mainConatiner} font-manrope bg-white text-manrope  pt-0 pb-12 px-2 lg:max-w-7xl w-screen mx-auto `}>
                 <div className={styles.section1}>
 
                     <div className={styles.headingBox}>
 
                         <div className={styles.mainHeading}>
-                            Delivering Unforgettable Experiences and Unmatched Comfort for Our Guests
+                            Flexible, modular solutions tailored to your business needs
 
                         </div>
 
@@ -112,6 +121,10 @@ export default function Hospitality() {
 
                     <div className={styles.mainImageBox}>
                         <img className={styles.mainImage} src={mainImg} alt="" />
+                        <div>
+
+                            <img src="" alt="" />
+                        </div>
                     </div>
                 </div>
 
@@ -146,7 +159,7 @@ export default function Hospitality() {
                                     </div>
 
                                     <div style={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
-                                        <img style={{maxWidth : "100%" , width : "70%"}} src={item.img} alt="" />
+                                        <img style={{ maxWidth: "100%", width: "70%" }} src={item.img} alt="" />
                                     </div>
                                 </div>
                             </Link>
@@ -163,7 +176,7 @@ export default function Hospitality() {
                 </div>
 
             </div>
-        
+
         </>
 
     )

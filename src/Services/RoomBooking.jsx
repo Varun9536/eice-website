@@ -11,122 +11,195 @@ import { useEffect, useState } from "react";
 
 export default function RoomBooking() {
 
+    // const features = [
+    //     {
+    //         heading: "Comprehensive Financial Tracking",
+    //         description: "Our system automates the entire payroll process, saving you time and reducing the risk of human errors. From salary calculations to deductions, everything is handled smoothly and accurately",
+    //         img: f1,
+    //         width: "700px"
+
+
+
+    //     },
+
+    //     {
+    //         heading: "Automated Invoicing and Billing",
+    //         description: "Our system automates the entire payroll process, saving you time and reducing the risk of human errors. From salary calculations to deductions, everything is handled smoothly and accurately",
+    //         img: f1,
+    //         width: "500px"
+
+    //     },
+
+    //     {
+    //         heading: "Real-Time Financial Reports",
+    //         description: "Our system automates the entire payroll process, saving you time and reducing the risk of human errors. From salary calculations to deductions, everything is handled smoothly and accurately",
+    //         img: f1,
+    //         width: "500px"
+    //     },
+
+    //     {
+    //         heading: "Budgeting & Forecasting",
+    //         description: "Our system automates the entire payroll process, saving you time and reducing the risk of human errors. From salary calculations to deductions, everything is handled smoothly and accurately",
+    //         img: f1,
+    //         width: "500px"
+    //     },
+
+    //     {
+    //         heading: "Tax Compliance and Filing Support",
+    //         description: "Our system automates the entire payroll process, saving you time and reducing the risk of human errors. From salary calculations to deductions, everything is handled smoothly and accurately",
+    //         img: f1,
+    //         width: "500px"
+    //     },
+
+    //     {
+    //         heading: "Cash Flow Management",
+    //         description: "Our system automates the entire payroll process, saving you time and reducing the risk of human errors. From salary calculations to deductions, everything is handled smoothly and accurately",
+    //         img: f1,
+    //         width: "500px"
+    //     },
+
+
+    // ]
+
+
+
     const features = [
         {
-            heading: "Comprehensive Financial Tracking",
-            description: "Our system automates the entire payroll process, saving you time and reducing the risk of human errors. From salary calculations to deductions, everything is handled smoothly and accurately",
-            img: f1,
-            width: "700px"
-
-
-
+            heading: "Real-Time Data Integration and Management",
+            description: "Ensuring up-to-date availability and booking information to improve guest experience and operational efficiency.",
+            img: ""
         },
-
         {
-            heading: "Automated Invoicing and Billing",
-            description: "Our system automates the entire payroll process, saving you time and reducing the risk of human errors. From salary calculations to deductions, everything is handled smoothly and accurately",
-            img: f1,
-            width: "500px"
-
+            heading: "Personalized Guest Experience",
+            description: "Offering flexible room selections, customizable booking options, and tailored add-ons to enhance guest satisfaction and loyalty.",
+            img: ""
         },
-
         {
-            heading: "Real-Time Financial Reports",
-            description: "Our system automates the entire payroll process, saving you time and reducing the risk of human errors. From salary calculations to deductions, everything is handled smoothly and accurately",
-            img: f1,
-            width: "500px"
+            heading: "Dynamic Pricing Models",
+            description: "Implementing automated pricing strategies based on demand, seasonality, and promotions to maximize revenue.",
+            img: ""
         },
-
         {
-            heading: "Budgeting & Forecasting",
-            description: "Our system automates the entire payroll process, saving you time and reducing the risk of human errors. From salary calculations to deductions, everything is handled smoothly and accurately",
-            img: f1,
-            width: "500px"
+            heading: "Payment Security and User Experience",
+            description: "Integrating secure payment gateways and ensuring a seamless, hassle-free checkout process for guests.",
+            img: ""
         },
-
         {
-            heading: "Tax Compliance and Filing Support",
-            description: "Our system automates the entire payroll process, saving you time and reducing the risk of human errors. From salary calculations to deductions, everything is handled smoothly and accurately",
-            img: f1,
-            width: "500px"
+            heading: "Booking and Reservation Management Systems",
+            description: "Centralized systems for managing bookings, check-ins, and cancellations to optimize room occupancy rates and streamline operations.",
+            img: ""
         },
-
         {
-            heading: "Cash Flow Management",
-            description: "Our system automates the entire payroll process, saving you time and reducing the risk of human errors. From salary calculations to deductions, everything is handled smoothly and accurately",
-            img: f1,
-            width: "500px"
-        },
-
-
-    ]
+            heading: "Mobile and Multi-Platform Optimization",
+            description: "Ensuring a responsive, user-friendly booking experience across all devices, enhancing accessibility for on-the-go customers.",
+            img: ""
+        }
+    ];
 
 
 
-    const benifits = [
+
+    // const benifits = [
+    //     {
+    //         heading: "Improved Efficiency",
+    //         description: "By outsourcing payroll to us, you eliminate the need for in-house payroll management. This reduces administrative workload, allowing your team to focus on core business operations, while cutting down on overhead costs.",
+    //         img: b1,
+    //         width: "500px"
+
+
+
+    //     },
+
+    //     {
+    //         heading: "Enhanced Vendor Collaboration",
+    //         description: "By outsourcing payroll to us, you eliminate the need for in-house payroll management. This reduces administrative workload, allowing your team to focus on core business operations, while cutting down on overhead costs.",
+    //         img: b1,
+    //         width: "500px"
+
+
+
+    //     },
+
+    //     {
+    //         heading: "Cost Savings",
+    //         description: "By outsourcing payroll to us, you eliminate the need for in-house payroll management. This reduces administrative workload, allowing your team to focus on core business operations, while cutting down on overhead costs.",
+    //         img: b1,
+    //         width: "500px"
+
+
+
+    //     },
+
+    //     {
+    //         heading: "Data-Driven Decision Making",
+    //         description: "By outsourcing payroll to us, you eliminate the need for in-house payroll management. This reduces administrative workload, allowing your team to focus on core business operations, while cutting down on overhead costs.",
+    //         img: b1,
+    //         width: "500px"
+
+
+
+    //     },
+
+    //     {
+    //         heading: "Compliance & Risk Management",
+    //         description: "By outsourcing payroll to us, you eliminate the need for in-house payroll management. This reduces administrative workload, allowing your team to focus on core business operations, while cutting down on overhead costs.",
+    //         img: b1,
+    //         width: "500px"
+
+
+
+    //     },
+
+    //     {
+    //         heading: "Barcode Scanning Integration",
+    //         description: "By outsourcing payroll to us, you eliminate the need for in-house payroll management. This reduces administrative workload, allowing your team to focus on core business operations, while cutting down on overhead costs.",
+    //         img: b1,
+    //         width: "500px"
+
+
+
+    //     },
+
+
+
+    // ]
+
+
+    const benefits = [
         {
-            heading: "Improved Efficiency",
-            description: "By outsourcing payroll to us, you eliminate the need for in-house payroll management. This reduces administrative workload, allowing your team to focus on core business operations, while cutting down on overhead costs.",
+            heading: "Effortless Booking Process",
+            description: "Easily book suites, deluxe, and standard rooms with integrated Wi-Fi access, providing guests with a convenient and comfortable experience.",
             img: b1,
             width: "500px"
-
-
-
         },
-
         {
-            heading: "Enhanced Vendor Collaboration",
-            description: "By outsourcing payroll to us, you eliminate the need for in-house payroll management. This reduces administrative workload, allowing your team to focus on core business operations, while cutting down on overhead costs.",
+            heading: "Improved Guest Satisfaction",
+            description: "Simplifies the booking procedure, improving customer satisfaction and loyalty by offering a seamless and stress-free experience.",
             img: b1,
             width: "500px"
-
-
-
         },
-
         {
-            heading: "Cost Savings",
-            description: "By outsourcing payroll to us, you eliminate the need for in-house payroll management. This reduces administrative workload, allowing your team to focus on core business operations, while cutting down on overhead costs.",
+            heading: "Increased Operational Efficiency",
+            description: "Reduces the manual workload on staff, minimizes booking errors, and enhances operational flow, allowing team members to focus on delivering exceptional guest services.",
             img: b1,
             width: "500px"
-
-
-
         },
-
         {
-            heading: "Data-Driven Decision Making",
-            description: "By outsourcing payroll to us, you eliminate the need for in-house payroll management. This reduces administrative workload, allowing your team to focus on core business operations, while cutting down on overhead costs.",
+            heading: "Optimized Revenue Generation",
+            description: "Boosts room occupancy and drives revenue growth through dynamic pricing strategies, promotional offers, and real-time availability management.",
             img: b1,
             width: "500px"
-
-
-
         },
-
         {
-            heading: "Compliance & Risk Management",
-            description: "By outsourcing payroll to us, you eliminate the need for in-house payroll management. This reduces administrative workload, allowing your team to focus on core business operations, while cutting down on overhead costs.",
+            heading: "Centralized Control",
+            description: "Centralizes all room bookings on a single platform, simplifying management and offering greater visibility to streamline room allocation and optimize resource management.",
             img: b1,
             width: "500px"
+        }
+    ];
 
 
 
-        },
-
-        {
-            heading: "Barcode Scanning Integration",
-            description: "By outsourcing payroll to us, you eliminate the need for in-house payroll management. This reduces administrative workload, allowing your team to focus on core business operations, while cutting down on overhead costs.",
-            img: b1,
-            width: "500px"
-
-
-
-        },
-
-
-
-    ]
 
 
 
@@ -153,12 +226,12 @@ export default function RoomBooking() {
                     <div className={styles.headingBox}>
 
                         <div className={styles.mainHeading}>
-                        Seamless Hotel and Room Booking Management
+                            Seamless Hotel and Room Booking Management
 
                         </div>
 
                         <div className={styles.mainSubHeading}>
-                        treamline your hotel operations with our advanced booking software, designed to optimize room management, enhance customer experience, and increase revenue through real-time booking, dynamic pricing, and automation
+                            treamline your hotel operations with our advanced booking software, designed to optimize room management, enhance customer experience, and increase revenue through real-time booking, dynamic pricing, and automation
 
                         </div>
 
@@ -176,12 +249,12 @@ export default function RoomBooking() {
                 <div className={styles.section2}>
 
                     <div className={styles.section2Heading}>
-                    Key Features of Our Hotel and Room Booking Software
+                        Key Features of Our Hotel and Room Booking Software
 
                     </div>
 
                     <div className={styles.section2SubHeading}>
-                    An All-In-One Solution for Streamlined Bookings, Optimized Operations, and Enhanced Customer Satisfaction
+                        An All-In-One Solution for Streamlined Bookings, Optimized Operations, and Enhanced Customer Satisfaction
                     </div>
 
 
@@ -200,7 +273,7 @@ export default function RoomBooking() {
                                 </div>
 
                                 <div style={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
-                                    <img style={{maxWidth : "80%"}} src={item.img} alt="" />
+                                    <img style={{ maxWidth: "80%" }} src={item.img} alt="" />
                                 </div>
 
 
@@ -222,16 +295,16 @@ export default function RoomBooking() {
                 <div className={styles.section3}>
 
                     <div className={styles.benifitsHeading}>
-                    Benefits of Using Our Hotel and Room Booking Software
+                        Benefits of Using Our Hotel and Room Booking Software
 
                     </div>
 
                     <div className={styles.benifitsSubHeading}>
-                    Unlock Greater Efficiency, Increase Revenue, and Enhance Guest Satisfaction with Our Hotel and Room Booking Software, Offering Real-Time Availability, Seamless Reservations, and Smart Pricing for Optimized Hotel Operations
+                        Unlock Greater Efficiency, Increase Revenue, and Enhance Guest Satisfaction with Our Hotel and Room Booking Software, Offering Real-Time Availability, Seamless Reservations, and Smart Pricing for Optimized Hotel Operations
                     </div>
 
                     <div className={styles.benifitsBox}>
-                        {benifits.map((item) =>
+                        {benefits.map((item) =>
                         (
                             <div className={styles.benifitsDescriptionBox}>
 
@@ -259,14 +332,14 @@ export default function RoomBooking() {
                 <div className={styles.section4}  >
 
                     <div className={styles.chooseUsHeading}>
-                    Why Choose Our Hotel and Room Booking Software?
+                        Why Choose Our Hotel and Room Booking Software?
                     </div>
                     <div className={styles.chooseUsSubHeading}>
-                    {/* Experience Hassle-Free Reservations, Optimized Room Management, and Increased Revenue with Our Hotel and Room Booking Software – Tailored to Meet the Unique Needs of Your Hospitality Business. */}
+                        {/* Experience Hassle-Free Reservations, Optimized Room Management, and Increased Revenue with Our Hotel and Room Booking Software – Tailored to Meet the Unique Needs of Your Hospitality Business. */}
                     </div>
 
                     <div className={styles.chooseUsDescription}>
-                    Whether you are managing a small boutique hotel or a large resort, our Hotel and Room Booking Software offers the perfect solution for efficient room management, real-time booking updates, and seamless guest experience.
+                        Whether you are managing a small boutique hotel or a large resort, our Hotel and Room Booking Software offers the perfect solution for efficient room management, real-time booking updates, and seamless guest experience.
                     </div>
                 </div>
 
