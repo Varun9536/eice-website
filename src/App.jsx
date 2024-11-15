@@ -364,9 +364,9 @@ const NavLayout = () => {
           </div>
         </nav>
 
-        <main className="2xl:mt-28 2xl:w-full 2xl:scale-100 w-screen scale-100">
+        {/* <main className="2xl:mt-28 2xl:w-full 2xl:scale-100 w-screen scale-100">
           <Outlet />
-        </main>
+        </main> */}
       </div>
     </>
   );
