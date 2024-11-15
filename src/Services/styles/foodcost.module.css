@@ -128,7 +128,8 @@
 .billingDescriptionBox {
     display: flex;
     width: 400px;
-    background-color: #fff0e6;
+    /* background-color: #fff0e6; */
+    background-color: rgba(180, 100, 234, 0.1);
     padding: 20px;
     border-radius: 15px;
     gap: 40px;

@@ -91,8 +91,9 @@
 .featuresAndImg {
     display: flex;
     width: 500px;
-    background-color: rgba(128, 0, 128, 0.2);
-    padding: 20px;
+    /* background-color: rgba(128, 0, 128, 0.2); */
+    background-color: rgba(204, 238, 255, 0.25);
+    padding: 10px 25px;
     border-radius: 15px;
 }
 
@@ -152,7 +153,8 @@
 .billingDescriptionBox {
     display: flex;
     width: 400px;
-    background-color: rgba(204, 238, 255, 0.5);
+    /* background-color: rgba(204, 238, 255, 0.5); */
+    background-color: rgba(180, 100, 234, 0.1);
     padding: 20px;
     border-radius: 15px;
     gap: 40px;

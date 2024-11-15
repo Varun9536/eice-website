@@ -88,7 +88,8 @@
 .featuresAndImg {
     display: flex;
     width: 500px;
-    background-color: rgba(128, 0, 128, 0.2);
+    /* background-color: rgba(110, 0, 110, 0.1); */
+    background-color: rgba(204, 238, 255, 0.25);
     padding: 20px;
     border-radius: 15px;
 }
@@ -149,12 +150,14 @@
 .billingDescriptionBox {
     display: flex;
     width: 400px;
-    background-color: rgba(204, 238, 255, 0.5);
+    /* background-color: rgba(120, 0, 200, 0.1); */
+    background-color: rgba(180, 100, 234, 0.1);
     padding: 20px;
     border-radius: 15px;
     gap: 40px;
 
 }
+
 
 .billingDescriptionBox:hover {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
