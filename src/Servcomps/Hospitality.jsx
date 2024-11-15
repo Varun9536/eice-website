@@ -12,7 +12,7 @@ import foodcost from "../assets/Hospitality/hospitalityIcon/foodcost.png"
 import inventry from "../assets/Hospitality/hospitalityIcon/inventry.png"
 import member from "../assets/Hospitality/hospitalityIcon/member.png"
 import payroll from "../assets/Hospitality/hospitalityIcon/payroll.png"
-import room from "../assets/Hospitality/hospitalityIcon/room.png"
+import room from "../assets/Hospitality/hospitalityIcon/room2.png"
 import vendor from "../assets/Hospitality/hospitalityIcon/vendor.png"
 
 export default function Hospitality() {
@@ -93,7 +93,7 @@ export default function Hospitality() {
     return (
         <>
 
-            <div className={`${styles.mainConatiner} font-manrope bg-white text-manrope  pt-32 pb-12 px-2 lg:max-w-7xl w-screen mx-auto `}>
+            <div className={`${styles.mainConatiner} font-manrope bg-white text-manrope  pt-24 pb-12 px-2 lg:max-w-7xl w-screen mx-auto `}>
                 <div className={styles.section1}>
 
                     <div className={styles.headingBox}>

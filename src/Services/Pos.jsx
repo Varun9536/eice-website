@@ -156,7 +156,7 @@ export default function Pos() {
     <>
 
 
-      <div className={`${pos.mainContainer} font-manrope  bg-white text-manrope  pt-32 pb-12 px-2 lg:max-w-7xl w-screen mx-auto`}>
+      <div className={`${pos.mainContainer} font-manrope  bg-white text-manrope  pt-24 pb-12 px-2 lg:max-w-7xl w-screen mx-auto`}>
 
         <div className={`${pos.section1}`}>
 
