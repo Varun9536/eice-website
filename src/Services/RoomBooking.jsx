@@ -237,7 +237,7 @@ export default function RoomBooking() {
                         </div>
 
                         <div className={styles.mainSubHeading}>
-                            treamline your hotel operations with our advanced booking software, designed to optimize room management, enhance customer experience, and increase revenue through real-time booking, dynamic pricing, and automation
+                        Our Room Booking module is a comprehensive solution designed for the hospitality industry, integrating with EICE Rise ERP to simplify and streamline the booking process for hotels, resorts, clubs, and event venues. From standard rooms to luxury suites, this feature offers an intuitive, user-friendly interface for both 
 
                         </div>
 

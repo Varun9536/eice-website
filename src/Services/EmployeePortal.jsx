@@ -336,7 +336,7 @@ export default function EmployeePortal() {
 
         {/* secton 4 */}
 
-        <div className={styles.section4}  >
+        <div className={styles.section4}  > 
 
           <div className={styles.chooseUsHeading}>
           Why Choose Our Employee Portal Software?
