@@ -11,122 +11,203 @@ import { useEffect, useState } from "react";
 
 export default function EmployeePortal() {
 
+  // const features = [
+  //   {
+  //     heading: "Personalized Dashboard",
+  //     description: "Our system automates the entire payroll process, saving you time and reducing the risk of human errors. From salary calculations to deductions, everything is handled smoothly and accurately",
+  //     img: f1,
+  //     width: "700px"
+
+
+
+  //   },
+
+  //   {
+  //     heading: "Seamless Communication Channels",
+  //     description: "Our system automates the entire payroll process, saving you time and reducing the risk of human errors. From salary calculations to deductions, everything is handled smoothly and accurately",
+  //     img: f1,
+  //     width: "500px"
+
+  //   },
+
+  //   {
+  //     heading: "Secure Document Storage & Sharing",
+  //     description: "Our system automates the entire payroll process, saving you time and reducing the risk of human errors. From salary calculations to deductions, everything is handled smoothly and accurately",
+  //     img: f1,
+  //     width: "500px"
+  //   },
+
+  //   {
+  //     heading: "Task and Project Management Tools",
+  //     description: "Our system automates the entire payroll process, saving you time and reducing the risk of human errors. From salary calculations to deductions, everything is handled smoothly and accurately",
+  //     img: f1,
+  //     width: "500px"
+  //   },
+
+  //   {
+  //     heading: "Self-Service HR and Payroll Access",
+  //     description: "Our system automates the entire payroll process, saving you time and reducing the risk of human errors. From salary calculations to deductions, everything is handled smoothly and accurately",
+  //     img: f1,
+  //     width: "500px"
+  //   },
+
+  //   {
+  //     heading: "Integrated Training and Development Modules",
+  //     description: "Our system automates the entire payroll process, saving you time and reducing the risk of human errors. From salary calculations to deductions, everything is handled smoothly and accurately",
+  //     img: f1,
+  //     width: "500px"
+  //   },
+
+
+  // ]
+
+
   const features = [
     {
-      heading: "Personalized Dashboard",
-      description: "Our system automates the entire payroll process, saving you time and reducing the risk of human errors. From salary calculations to deductions, everything is handled smoothly and accurately",
-      img: f1,
-      width: "700px"
-
-
-
+        heading: "Personal Information Management",
+        description: "Employees can update contact details, emergency contacts, and tax information for accurate and up-to-date records.",
+        img: f1,
+        width: "500px"
     },
-
     {
-      heading: "Seamless Communication Channels",
-      description: "Our system automates the entire payroll process, saving you time and reducing the risk of human errors. From salary calculations to deductions, everything is handled smoothly and accurately",
-      img: f1,
-      width: "500px"
-
+        heading: "Payroll and Compensation",
+        description: "Employees can access payslips, track salary history, and view deductions and bonuses for full transparency.",
+        img: f1,
+        width: "500px"
     },
-
     {
-      heading: "Secure Document Storage & Sharing",
-      description: "Our system automates the entire payroll process, saving you time and reducing the risk of human errors. From salary calculations to deductions, everything is handled smoothly and accurately",
-      img: f1,
-      width: "500px"
+        heading: "Leave and Attendance Management",
+        description: "Employees can submit leave requests, track attendance, and view leave balances for easier time-off management.",
+        img: f1,
+        width: "500px"
     },
-
     {
-      heading: "Task and Project Management Tools",
-      description: "Our system automates the entire payroll process, saving you time and reducing the risk of human errors. From salary calculations to deductions, everything is handled smoothly and accurately",
-      img: f1,
-      width: "500px"
+        heading: "Training and Development",
+        description: "Employees can explore training programs, track progress, and enroll in courses to enhance professional skills.",
+        img: f1,
+        width: "500px"
     },
-
     {
-      heading: "Self-Service HR and Payroll Access",
-      description: "Our system automates the entire payroll process, saving you time and reducing the risk of human errors. From salary calculations to deductions, everything is handled smoothly and accurately",
-      img: f1,
-      width: "500px"
+        heading: "Document Access",
+        description: "Employees can access important documents like policies, contracts, benefits, and company announcements for quick reference.",
+        img: f1,
+        width: "500px"
     },
-
     {
-      heading: "Integrated Training and Development Modules",
-      description: "Our system automates the entire payroll process, saving you time and reducing the risk of human errors. From salary calculations to deductions, everything is handled smoothly and accurately",
-      img: f1,
-      width: "500px"
+        heading: "Performance Management",
+        description: "Employees can track goals, review feedback, and collaborate with managers to set development plans for continuous improvement.",
+        img: f1,
+        width: "500px"
     },
-
-
-  ]
+];
 
 
 
-  const benifits = [
+  // const benifits = [
+  //   {
+  //     heading: "Enhanced Employee Engagement",
+  //     description: "By outsourcing payroll to us, you eliminate the need for in-house payroll management. This reduces administrative workload, allowing your team to focus on core business operations, while cutting down on overhead costs.",
+  //     img: b1,
+  //     width: "500px"
+
+
+
+  //   },
+
+  //   {
+  //     heading: "Increased Efficiency and Productivity",
+  //     description: "By outsourcing payroll to us, you eliminate the need for in-house payroll management. This reduces administrative workload, allowing your team to focus on core business operations, while cutting down on overhead costs.",
+  //     img: b1,
+  //     width: "500px"
+
+
+
+  //   },
+
+  //   {
+  //     heading: "Secure and Reliable Access",
+  //     description: "By outsourcing payroll to us, you eliminate the need for in-house payroll management. This reduces administrative workload, allowing your team to focus on core business operations, while cutting down on overhead costs.",
+  //     img: b1,
+  //     width: "500px"
+
+
+
+  //   },
+
+  //   {
+  //     heading: "Reduced Administrative Overload",
+  //     description: "By outsourcing payroll to us, you eliminate the need for in-house payroll management. This reduces administrative workload, allowing your team to focus on core business operations, while cutting down on overhead costs.",
+  //     img: b1,
+  //     width: "500px"
+
+
+
+  //   },
+
+  //   {
+  //     heading: "Real-Time Updates and Notifications",
+  //     description: "By outsourcing payroll to us, you eliminate the need for in-house payroll management. This reduces administrative workload, allowing your team to focus on core business operations, while cutting down on overhead costs.",
+  //     img: b1,
+  //     width: "500px"
+
+
+
+  //   },
+
+  //   {
+  //     heading: "Improved Employee Satisfaction and Retention",
+  //     description: "By outsourcing payroll to us, you eliminate the need for in-house payroll management. This reduces administrative workload, allowing your team to focus on core business operations, while cutting down on overhead costs.",
+  //     img: b1,
+  //     width: "500px"
+
+
+
+  //   },
+
+
+
+  // ]
+
+
+  const benefits = [
     {
-      heading: "Enhanced Employee Engagement",
-      description: "By outsourcing payroll to us, you eliminate the need for in-house payroll management. This reduces administrative workload, allowing your team to focus on core business operations, while cutting down on overhead costs.",
-      img: b1,
-      width: "500px"
-
-
-
+        heading: "Improved Efficiency",
+        description: "Reduces administrative work by centralizing HR services and allowing employees to manage their own data.",
+        img: f1,
+        width: "500px"
     },
-
     {
-      heading: "Increased Efficiency and Productivity",
-      description: "By outsourcing payroll to us, you eliminate the need for in-house payroll management. This reduces administrative workload, allowing your team to focus on core business operations, while cutting down on overhead costs.",
-      img: b1,
-      width: "500px"
-
-
-
+        heading: "Enhanced Communication",
+        description: "Ensures clear communication about company policies, events, and updates.",
+        img: f1,
+        width: "500px"
     },
-
     {
-      heading: "Secure and Reliable Access",
-      description: "By outsourcing payroll to us, you eliminate the need for in-house payroll management. This reduces administrative workload, allowing your team to focus on core business operations, while cutting down on overhead costs.",
-      img: b1,
-      width: "500px"
-
-
-
+        heading: "Employee Empowerment",
+        description: "Increases engagement by giving employees control over their personal and professional information.",
+        img: f1,
+        width: "500px"
     },
-
     {
-      heading: "Reduced Administrative Overload",
-      description: "By outsourcing payroll to us, you eliminate the need for in-house payroll management. This reduces administrative workload, allowing your team to focus on core business operations, while cutting down on overhead costs.",
-      img: b1,
-      width: "500px"
-
-
-
+        heading: "Transparency and Trust",
+        description: "Promotes trust by providing full visibility into payroll, benefits, and performance.",
+        img: f1,
+        width: "500px"
     },
-
     {
-      heading: "Real-Time Updates and Notifications",
-      description: "By outsourcing payroll to us, you eliminate the need for in-house payroll management. This reduces administrative workload, allowing your team to focus on core business operations, while cutting down on overhead costs.",
-      img: b1,
-      width: "500px"
-
-
-
+        heading: "Time Savings",
+        description: "Automates HR processes, freeing up time for HR teams to focus on strategic tasks.",
+        img: f1,
+        width: "500px"
     },
-
     {
-      heading: "Improved Employee Satisfaction and Retention",
-      description: "By outsourcing payroll to us, you eliminate the need for in-house payroll management. This reduces administrative workload, allowing your team to focus on core business operations, while cutting down on overhead costs.",
-      img: b1,
-      width: "500px"
-
-
-
+        heading: "Compliance and Security",
+        description: "Ensures secure storage and compliance with data privacy regulations, protecting sensitive employee information.",
+        img: f1,
+        width: "500px"
     },
+];
 
-
-
-  ]
 
 
 
@@ -199,7 +280,7 @@ export default function EmployeePortal() {
                 </div>
 
                 <div style={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
-                  <img src={item.img} alt="" />
+                  {/* <img src={item.img} alt="" /> */}
                 </div>
 
 
@@ -230,13 +311,13 @@ export default function EmployeePortal() {
           </div>
 
           <div className={styles.billingBox}>
-            {benifits.map((item) =>
+            {benefits.map((item) =>
             (
               <div className={styles.billingDescriptionBox}>
 
 
                 <div>
-                  <img style={{ width: "700px" }} src={item.img} alt="" />
+                  {/* <img style={{ width: "700px" }} src={item.img} alt="" /> */}
                 </div>
 
                 <div className={styles.summaryDescription}>

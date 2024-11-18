@@ -12,122 +12,192 @@ export default function PurchaseAndVendorPortal() {
 
 
 
+    // const features = [
+    //     {
+    //         heading: "Centralized Vendor Management",
+    //         description: "Our system automates the entire payroll process, saving you time and reducing the risk of human errors. From salary calculations to deductions, everything is handled smoothly and accurately",
+    //      img: b1,
+    //         width: "700px"
+
+
+
+    //     },
+
+    //     {
+    //         heading: "Automated Purchase Orders",
+    //         description: "Our system automates the entire payroll process, saving you time and reducing the risk of human errors. From salary calculations to deductions, everything is handled smoothly and accurately",
+    //      img: b1,
+    //         width: "500px"
+
+    //     },
+
+    //     {
+    //         heading: "Real-Time Tracking and Status Updates",
+    //         description: "Our system automates the entire payroll process, saving you time and reducing the risk of human errors. From salary calculations to deductions, everything is handled smoothly and accurately",
+    //      img: b1,
+    //         width: "500px"
+    //     },
+
+    //     {
+    //         heading: "Inventory Integration",
+    //         description: "Our system automates the entire payroll process, saving you time and reducing the risk of human errors. From salary calculations to deductions, everything is handled smoothly and accurately",
+    //      img: b1,
+    //         width: "500px"
+    //     },
+
+    //     {
+    //         heading: "Cost Analysis & Reporting",
+    //         description: "Our system automates the entire payroll process, saving you time and reducing the risk of human errors. From salary calculations to deductions, everything is handled smoothly and accurately",
+    //      img: b1,
+    //         width: "500px"
+    //     },
+
+    //     {
+    //         heading: "Role-Based Access Control",
+    //         description: "Our system automates the entire payroll process, saving you time and reducing the risk of human errors. From salary calculations to deductions, everything is handled smoothly and accurately",
+    //      img: b1,
+    //         width: "500px"
+    //     },
+
+
+    // ]
+
+
     const features = [
         {
-            heading: "Centralized Vendor Management",
-            description: "Our system automates the entire payroll process, saving you time and reducing the risk of human errors. From salary calculations to deductions, everything is handled smoothly and accurately",
-         img: b1,
-            width: "700px"
-
-
-
-        },
-
-        {
-            heading: "Automated Purchase Orders",
-            description: "Our system automates the entire payroll process, saving you time and reducing the risk of human errors. From salary calculations to deductions, everything is handled smoothly and accurately",
-         img: b1,
-            width: "500px"
-
-        },
-
-        {
-            heading: "Real-Time Tracking and Status Updates",
-            description: "Our system automates the entire payroll process, saving you time and reducing the risk of human errors. From salary calculations to deductions, everything is handled smoothly and accurately",
-         img: b1,
-            width: "500px"
-        },
-
-        {
-            heading: "Inventory Integration",
-            description: "Our system automates the entire payroll process, saving you time and reducing the risk of human errors. From salary calculations to deductions, everything is handled smoothly and accurately",
-         img: b1,
-            width: "500px"
-        },
-
-        {
-            heading: "Cost Analysis & Reporting",
-            description: "Our system automates the entire payroll process, saving you time and reducing the risk of human errors. From salary calculations to deductions, everything is handled smoothly and accurately",
-         img: b1,
-            width: "500px"
-        },
-
-        {
-            heading: "Role-Based Access Control",
-            description: "Our system automates the entire payroll process, saving you time and reducing the risk of human errors. From salary calculations to deductions, everything is handled smoothly and accurately",
-         img: b1,
-            width: "500px"
-        },
-
-
-    ]
-
-
-
-    const benifits = [
-        {
-            heading: "Improved Efficiency",
-            description: "By outsourcing payroll to us, you eliminate the need for in-house payroll management. This reduces administrative workload, allowing your team to focus on core business operations, while cutting down on overhead costs.",
+            heading: "Vendor Management",
+            description: "Maintain detailed vendor profiles, including contact info, products, and contract terms, for efficient relationship management.",
             img: f1,
             width: "500px"
-
-
-
         },
-
         {
-            heading: "Enhanced Vendor Collaboration",
-            description: "By outsourcing payroll to us, you eliminate the need for in-house payroll management. This reduces administrative workload, allowing your team to focus on core business operations, while cutting down on overhead costs.",
+            heading: "RFP/RFQ Management",
+            description: "Streamline the procurement process by creating and managing Requests for Proposals (RFPs) and Quotations (RFQs) to receive competitive bids.",
             img: f1,
             width: "500px"
-
-
-
         },
-
         {
-            heading: "Cost Savings",
-            description: "By outsourcing payroll to us, you eliminate the need for in-house payroll management. This reduces administrative workload, allowing your team to focus on core business operations, while cutting down on overhead costs.",
+            heading: "Automated Quotation Comparison",
+            description: "Automatically compare vendor quotations on price, delivery, and quality to facilitate data-driven decision-making.",
             img: f1,
             width: "500px"
-
-
-
         },
-
         {
-            heading: "Data-Driven Decision Making",
-            description: "By outsourcing payroll to us, you eliminate the need for in-house payroll management. This reduces administrative workload, allowing your team to focus on core business operations, while cutting down on overhead costs.",
+            heading: "Order Management",
+            description: "Track and manage purchase orders, integrated with inventory and warehouse systems for real-time updates on stock and deliveries.",
             img: f1,
             width: "500px"
-
-
-
         },
-
         {
-            heading: "Compliance & Risk Management",
-            description: "By outsourcing payroll to us, you eliminate the need for in-house payroll management. This reduces administrative workload, allowing your team to focus on core business operations, while cutting down on overhead costs.",
+            heading: "Vendor Payment Tracking",
+            description: "Monitor and manage vendor payments, including invoices and due dates, ensuring smooth transactions with transparent payment status.",
             img: f1,
             width: "500px"
-
-
-
         },
-
         {
-            heading: "Barcode Scanning Integration",
-            description: "By outsourcing payroll to us, you eliminate the need for in-house payroll management. This reduces administrative workload, allowing your team to focus on core business operations, while cutting down on overhead costs.",
+            heading: "Supplier Performance Monitoring",
+            description: "Evaluate and monitor vendor performance with reports on delivery, product quality, and compliance to strengthen supplier relationships.",
             img: f1,
             width: "500px"
+        }
+    ];
 
 
 
+
+    // const benifits = [
+    //     {
+    //         heading: "Improved Efficiency",
+    //         description: "By outsourcing payroll to us, you eliminate the need for in-house payroll management. This reduces administrative workload, allowing your team to focus on core business operations, while cutting down on overhead costs.",
+    //         img: f1,
+    //         width: "500px"
+
+
+
+    //     },
+
+    //     {
+    //         heading: "Enhanced Vendor Collaboration",
+    //         description: "By outsourcing payroll to us, you eliminate the need for in-house payroll management. This reduces administrative workload, allowing your team to focus on core business operations, while cutting down on overhead costs.",
+    //         img: f1,
+    //         width: "500px"
+
+
+
+    //     },
+
+    //     {
+    //         heading: "Cost Savings",
+    //         description: "By outsourcing payroll to us, you eliminate the need for in-house payroll management. This reduces administrative workload, allowing your team to focus on core business operations, while cutting down on overhead costs.",
+    //         img: f1,
+    //         width: "500px"
+
+
+
+    //     },
+
+    //     {
+    //         heading: "Data-Driven Decision Making",
+    //         description: "By outsourcing payroll to us, you eliminate the need for in-house payroll management. This reduces administrative workload, allowing your team to focus on core business operations, while cutting down on overhead costs.",
+    //         img: f1,
+    //         width: "500px"
+
+
+
+    //     },
+
+    //     {
+    //         heading: "Compliance & Risk Management",
+    //         description: "By outsourcing payroll to us, you eliminate the need for in-house payroll management. This reduces administrative workload, allowing your team to focus on core business operations, while cutting down on overhead costs.",
+    //         img: f1,
+    //         width: "500px"
+
+
+
+    //     },
+
+    //     {
+    //         heading: "Barcode Scanning Integration",
+    //         description: "By outsourcing payroll to us, you eliminate the need for in-house payroll management. This reduces administrative workload, allowing your team to focus on core business operations, while cutting down on overhead costs.",
+    //         img: f1,
+    //         width: "500px"
+
+
+
+    //     },
+
+
+
+    // ]
+
+
+    const benefits = [
+        {
+            heading: "Efficient Vendor Management",
+            description: "Centralized vendor profiles streamline record-keeping, making it easier to manage and track supplier relationships over time."
         },
+        {
+            heading: "Time and Cost Savings",
+            description: "Streamlining the RFP and RFQ processes accelerates vendor selection, helping businesses secure better prices and make quicker procurement decisions."
+        },
+        {
+            heading: "Transparency and Accountability",
+            description: "Clear tracking of payment statuses and purchase orders reduces disputes and builds trust between businesses and suppliers."
+        },
+        {
+            heading: "Improved Supplier Relationships",
+            description: "Regular performance evaluations and direct communication through the portal foster stronger, more collaborative partnerships."
+        },
+        {
+            heading: "Better Financial Control",
+            description: "Integration with finance systems ensures efficient tracking of payment terms, budgets, and spending to maintain cash flow and financial control."
+        },
+        {
+            heading: "Enhanced Reporting and Insights",
+            description: "In-depth reports and analytics offer valuable insights into purchasing trends and vendor performance, aiding better decision-making and cost-saving strategies."
+        }
+    ];
 
-
-
-    ]
 
 
 
@@ -154,12 +224,12 @@ export default function PurchaseAndVendorPortal() {
                     <div className={styles.headingBox}>
 
                         <div className={styles.mainHeading}>
-                        Purchase & Vendor Management Portal
+                            Purchase & Vendor Management Portal
 
                         </div>
 
                         <div className={styles.mainSubHeading}>
-                        Our Purchase & Vendor Management Portal is designed to help businesses efficiently manage vendor relationships, track purchase orders, and optimize procurement processes. With real-time insights and automation tools, our portal simplifies purchasing workflows and enhances vendor collaboration, enabling you to make smarter, faster decisions
+                            Our Purchase & Vendor Management Portal is designed to help businesses efficiently manage vendor relationships, track purchase orders, and optimize procurement processes. With real-time insights and automation tools, our portal simplifies purchasing workflows and enhances vendor collaboration, enabling you to make smarter, faster decisions
                         </div>
 
 
@@ -176,12 +246,12 @@ export default function PurchaseAndVendorPortal() {
                 <div className={styles.section2}>
 
                     <div className={styles.section2Heading}>
-                    Key Features of Our Purchase & Vendor Portal
+                        Key Features of Our Purchase & Vendor Portal
 
                     </div>
 
                     <div className={styles.section2SubHeading}>
-                    Essential Tools to Streamline Procurement, Strengthen Vendor Relations, and Optimize Supply Chain Efficiency
+                        Essential Tools to Streamline Procurement, Strengthen Vendor Relations, and Optimize Supply Chain Efficiency
                     </div>
 
 
@@ -199,8 +269,8 @@ export default function PurchaseAndVendorPortal() {
 
                                 </div>
 
-                                <div style={{display : "flex" , justifyContent : "center" , alignItems : "center"}}>
-                                    <img width={500} src={item.img} alt="" />
+                                <div style={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
+                                    {/* <img width={500} src={item.img} alt="" /> */}
                                 </div>
 
 
@@ -222,22 +292,22 @@ export default function PurchaseAndVendorPortal() {
                 <div className={styles.section3}>
 
                     <div className={styles.billingHeading}>
-                    Features of Our Inventory Management Solutions
+                        Features of Our Inventory Management Solutions
 
                     </div>
 
                     <div className={styles.billingSubHeading}>
-                    Comprehensive Tools to Simplify, Track, and Optimize Your Inventory Effortlessly, Enhancing Accuracy, Reducing Costs, and Supporting Business Growth Across All Locations
+                        Comprehensive Tools to Simplify, Track, and Optimize Your Inventory Effortlessly, Enhancing Accuracy, Reducing Costs, and Supporting Business Growth Across All Locations
                     </div>
 
                     <div className={styles.billingBox}>
-                        {benifits.map((item) =>
+                        {benefits.map((item) =>
                         (
                             <div className={styles.billingDescriptionBox}>
 
 
                                 <div>
-                                    <img style={{width  : "700px"}} src={item.img} alt="" />
+                                    {/* <img style={{ width: "700px" }} src={item.img} alt="" /> */}
                                 </div>
 
                                 <div className={styles.summaryDescription}>
@@ -259,14 +329,14 @@ export default function PurchaseAndVendorPortal() {
                 <div className={styles.section4}  >
 
                     <div className={styles.chooseUsHeading}>
-                    Why Choose Us for Your Purchase & Vendor Management?
+                        Why Choose Us for Your Purchase & Vendor Management?
                     </div>
-                    <div  className={styles.chooseUsSubHeading}>
-                    Your Trusted Partner for Reliable, Efficient, and Insightful Vendor and Procurement Solutions
+                    <div className={styles.chooseUsSubHeading}>
+                        Your Trusted Partner for Reliable, Efficient, and Insightful Vendor and Procurement Solutions
                     </div>
 
                     <div className={styles.chooseUsDescription}>
-                    Choosing us for purchase and vendor management ensures streamlined procurement, enhanced vendor relationships, and data-driven insights. Our flexible platform adapts to your unique needs, automating workflows to reduce costs and improve efficiency. We foster strong vendor collaboration and reliable partnerships, helping you optimize your supply chain and achieve strategic growth with a trusted, results-focused partner by your side.
+                        Choosing us for purchase and vendor management ensures streamlined procurement, enhanced vendor relationships, and data-driven insights. Our flexible platform adapts to your unique needs, automating workflows to reduce costs and improve efficiency. We foster strong vendor collaboration and reliable partnerships, helping you optimize your supply chain and achieve strategic growth with a trusted, results-focused partner by your side.
                     </div>
                 </div>
 

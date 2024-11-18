@@ -10,122 +10,204 @@ export default function FoodCostAnalysis() {
 
 
 
+    // const features = [
+    //     {
+    //         heading: "Accurate Cost Tracking",
+    //         description: "Our system automates the entire payroll process, saving you time and reducing the risk of human errors. From salary calculations to deductions, everything is handled smoothly and accurately",
+    //         img: f1,
+    //         width: "500px"
+
+
+
+    //     },
+
+    //     {
+    //         heading: "Menu Pricing Optimization",
+    //         description: "Our system automates the entire payroll process, saving you time and reducing the risk of human errors. From salary calculations to deductions, everything is handled smoothly and accurately",
+    //         img: f1,
+    //         width: "500px"
+
+    //     },
+
+    //     {
+    //         heading: "Waste Management Insights",
+    //         description: "Our system automates the entire payroll process, saving you time and reducing the risk of human errors. From salary calculations to deductions, everything is handled smoothly and accurately",
+    //         img: f1,
+    //         width: "500px"
+    //     },
+
+    //     {
+    //         heading: "ALabor Cost Analysis",
+    //         description: "Our system automates the entire payroll process, saving you time and reducing the risk of human errors. From salary calculations to deductions, everything is handled smoothly and accurately",
+    //         img: f1,
+    //         width: "500px"
+    //     },
+
+    //     {
+    //         heading: "Custom Recommendations",
+    //         description: "Our system automates the entire payroll process, saving you time and reducing the risk of human errors. From salary calculations to deductions, everything is handled smoothly and accurately",
+    //         img: f1,
+    //         width: "500px"
+    //     },
+
+    //     {
+    //         heading: "Custom Recommendations",
+    //         description: "Our system automates the entire payroll process, saving you time and reducing the risk of human errors. From salary calculations to deductions, everything is handled smoothly and accurately",
+    //         img: f1,
+    //         width: "500px"
+    //     },
+
+
+    // ]
+
+
     const features = [
         {
-            heading: "Accurate Cost Tracking",
-            description: "Our system automates the entire payroll process, saving you time and reducing the risk of human errors. From salary calculations to deductions, everything is handled smoothly and accurately",
+            heading: "Real-Time Cost Tracking",
+            description: "Monitors ingredient, labor, and overhead costs in real-time, providing accurate cost control for all transactions.",
             img: f1,
             width: "500px"
-
-
-
         },
-
         {
-            heading: "Menu Pricing Optimization",
-            description: "Our system automates the entire payroll process, saving you time and reducing the risk of human errors. From salary calculations to deductions, everything is handled smoothly and accurately",
+            heading: "Recipe Costing",
+            description: "Tracks recipes, ingredient quantities, preparation methods, and calculates the cost per dish or drink for precise pricing decisions.",
             img: f1,
             width: "500px"
-
         },
-
         {
-            heading: "Waste Management Insights",
-            description: "Our system automates the entire payroll process, saving you time and reducing the risk of human errors. From salary calculations to deductions, everything is handled smoothly and accurately",
+            heading: "Menu Engineering",
+            description: "Analyzes the profitability of menu items by comparing cost and price, helping optimize menu offerings and improve profitability.",
             img: f1,
             width: "500px"
         },
-
         {
-            heading: "ALabor Cost Analysis",
-            description: "Our system automates the entire payroll process, saving you time and reducing the risk of human errors. From salary calculations to deductions, everything is handled smoothly and accurately",
+            heading: "Supplier Management & Purchase Orders",
+            description: "Monitors supplier prices, manages purchase orders, and helps negotiate better deals to reduce the cost of goods sold (COGS).",
             img: f1,
             width: "500px"
         },
-
         {
-            heading: "Custom Recommendations",
-            description: "Our system automates the entire payroll process, saving you time and reducing the risk of human errors. From salary calculations to deductions, everything is handled smoothly and accurately",
+            heading: "Waste and Loss Management",
+            description: "Identifies and reduces wastage, improving resource utilization and minimizing losses.",
             img: f1,
             width: "500px"
         },
-
         {
-            heading: "Custom Recommendations",
-            description: "Our system automates the entire payroll process, saving you time and reducing the risk of human errors. From salary calculations to deductions, everything is handled smoothly and accurately",
+            heading: "Sales Performance Insights",
+            description: "Analyzes sales performance to identify top-performing items and align the menu with customer preferences.",
             img: f1,
             width: "500px"
-        },
+        }
+    ];
 
 
-    ]
+
+
+    // const benifits = [
+    //     {
+    //         heading: "Improved Profit Margins",
+    //         description: "By outsourcing payroll to us, you eliminate the need for in-house payroll management. This reduces administrative workload, allowing your team to focus on core business operations, while cutting down on overhead costs.",
+    //         img: f1,
+    //         width: "500px"
 
 
 
-    const benifits = [
+    //     },
+
+    //     {
+    //         heading: "Accurate Menu Pricing",
+    //         description: "By outsourcing payroll to us, you eliminate the need for in-house payroll management. This reduces administrative workload, allowing your team to focus on core business operations, while cutting down on overhead costs.",
+    //         img: f1,
+    //         width: "500px"
+
+
+
+    //     },
+
+    //     {
+    //         heading: "Improved Profit Margins",
+    //         description: "By outsourcing payroll to us, you eliminate the need for in-house payroll management. This reduces administrative workload, allowing your team to focus on core business operations, while cutting down on overhead costs.",
+    //         img: f1,
+    //         width: "500px"
+
+
+
+    //     },
+
+    //     {
+    //         heading: "Labor Cost Optimization",
+    //         description: "By outsourcing payroll to us, you eliminate the need for in-house payroll management. This reduces administrative workload, allowing your team to focus on core business operations, while cutting down on overhead costs.",
+    //         img: f1,
+    //         width: "500px"
+
+
+
+    //     },
+
+    //     {
+    //         heading: "Better Budgeting and Forecasting",
+    //         description: "By outsourcing payroll to us, you eliminate the need for in-house payroll management. This reduces administrative workload, allowing your team to focus on core business operations, while cutting down on overhead costs.",
+    //         img: f1,
+    //         width: "500px"
+
+
+
+    //     },
+
+    //     {
+    //         heading: "Time and Cost Savings",
+    //         description: "By outsourcing payroll to us, you eliminate the need for in-house payroll management. This reduces administrative workload, allowing your team to focus on core business operations, while cutting down on overhead costs.",
+    //         img: f1,
+    //         width: "500px"
+
+
+
+    //     },
+
+
+
+    // ]
+
+
+    const benefits = [
         {
-            heading: "Improved Profit Margins",
-            description: "By outsourcing payroll to us, you eliminate the need for in-house payroll management. This reduces administrative workload, allowing your team to focus on core business operations, while cutting down on overhead costs.",
-            img: f1,
-            width: "500px"
-
-
-
+          heading: "Profitability Optimization",
+          description: "Enhance margins by optimizing ingredient costs, portion sizes, and pricing decisions, leading to improved profitability.",
+          img: f1,
+          width: "500px"
         },
-
         {
-            heading: "Accurate Menu Pricing",
-            description: "By outsourcing payroll to us, you eliminate the need for in-house payroll management. This reduces administrative workload, allowing your team to focus on core business operations, while cutting down on overhead costs.",
-            img: f1,
-            width: "500px"
-
-
-
+          heading: "Cost Control",
+          description: "Monitor and control real-time F&B expenses, preventing unexpected costs and ensuring better financial management.",
+          img: f1,
+          width: "500px"
         },
-
         {
-            heading: "Improved Profit Margins",
-            description: "By outsourcing payroll to us, you eliminate the need for in-house payroll management. This reduces administrative workload, allowing your team to focus on core business operations, while cutting down on overhead costs.",
-            img: f1,
-            width: "500px"
-
-
-
+          heading: "Efficient Menu Management",
+          description: "Streamline the menu by removing low-margin items and adjusting portions to meet demand while maintaining profitability.",
+          img: f1,
+          width: "500px"
         },
-
         {
-            heading: "Labor Cost Optimization",
-            description: "By outsourcing payroll to us, you eliminate the need for in-house payroll management. This reduces administrative workload, allowing your team to focus on core business operations, while cutting down on overhead costs.",
-            img: f1,
-            width: "500px"
-
-
-
+          heading: "Enhanced Supplier Negotiation",
+          description: "Leverage supplier price tracking to negotiate better terms and reduce overall ingredient costs.",
+          img: f1,
+          width: "500px"
         },
-
         {
-            heading: "Better Budgeting and Forecasting",
-            description: "By outsourcing payroll to us, you eliminate the need for in-house payroll management. This reduces administrative workload, allowing your team to focus on core business operations, while cutting down on overhead costs.",
-            img: f1,
-            width: "500px"
-
-
-
+          heading: "Waste Reduction",
+          description: "Minimize food wastage through improved inventory management and preparation practices, boosting profits.",
+          img: f1,
+          width: "500px"
         },
-
         {
-            heading: "Time and Cost Savings",
-            description: "By outsourcing payroll to us, you eliminate the need for in-house payroll management. This reduces administrative workload, allowing your team to focus on core business operations, while cutting down on overhead costs.",
-            img: f1,
-            width: "500px"
-
-
-
-        },
-
-
-
-    ]
+          heading: "Increased Operational Efficiency",
+          description: "Automate calculations and gain real-time insights, streamlining operations and improving both efficiency and guest satisfaction.",
+          img: f1,
+          width: "500px"
+        }
+      ];
+      
 
 
 
@@ -152,11 +234,11 @@ export default function FoodCostAnalysis() {
                     <div className={styles.headingBox}>
 
                         <div className={styles.mainHeading}>
-                        Food & Beverage Cost Analysis Service
+                            Food & Beverage Cost Analysis Service
                         </div>
 
                         <div className={styles.mainSubHeading}>
-                        we offer comprehensive Food & Beverage Cost Analysis services to help businesses in the hospitality industry manage and reduce operational costs while maximizing profitability
+                            we offer comprehensive Food & Beverage Cost Analysis services to help businesses in the hospitality industry manage and reduce operational costs while maximizing profitability
                         </div>
 
 
@@ -173,11 +255,11 @@ export default function FoodCostAnalysis() {
                 <div className={styles.section2}>
 
                     <div className={styles.section2Heading}>
-                    Why Choose Our Food & Beverage Cost Analysis?
+                        Why Choose Our Food & Beverage Cost Analysis?
                     </div>
 
                     <div className={styles.section2SubHeading}>
-                    Unlock Cost Savings, Improve Efficiency, and Boost Profitability with Expert Analysis
+                        Unlock Cost Savings, Improve Efficiency, and Boost Profitability with Expert Analysis
                     </div>
 
 
@@ -195,8 +277,8 @@ export default function FoodCostAnalysis() {
 
                                 </div>
 
-                                <div style={{display : "flex" , justifyContent : "center" , alignItems : "center"}}>
-                                    <img src={item.img} alt="" />
+                                <div style={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
+                                    {/* <img src={item.img} alt="" /> */}
                                 </div>
 
 
@@ -218,21 +300,21 @@ export default function FoodCostAnalysis() {
                 <div className={styles.section3}>
 
                     <div className={styles.billingHeading}>
-                    Benefits of Food & Beverage Cost Analysis
+                        Benefits of Food & Beverage Cost Analysis
                     </div>
 
                     <div className={styles.billingSubHeading}>
-                    Maximize Profitability, Efficiency, and Sustainability with Expert Cost Analysis
+                        Maximize Profitability, Efficiency, and Sustainability with Expert Cost Analysis
                     </div>
 
                     <div className={styles.billingBox}>
-                        {benifits.map((item) =>
+                        {benefits.map((item) =>
                         (
                             <div className={styles.billingDescriptionBox}>
 
 
                                 <div>
-                                    <img src={item.img} alt="" />
+                                    {/* <img src={item.img} alt="" /> */}
                                 </div>
 
                                 <div className={styles.summaryDescription}>
